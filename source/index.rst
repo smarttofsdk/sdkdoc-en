@@ -8,14 +8,13 @@ Welcome to SmartToF SDK User Guide!
 
 
 .. raw:: latex
-
    \part{SDK Introduction}
 
 .. _sec-general:
 
 .. toctree::
    :caption: Introduction
-
+   
    Introduction/index.rst
    
 .. raw:: latex
@@ -26,14 +25,14 @@ Welcome to SmartToF SDK User Guide!
 
 .. toctree::
    :caption: Quick Start
-
-   GettingStart/index.rst 
+   
+   GettingStart/index.rst
 
 .. toctree::
     :maxdepth: 1
     :caption: Firmwareupdate
     :name: update
-
+	
     details/sub/firmwareupdate.rst
    
 .. raw:: latex
@@ -44,8 +43,7 @@ Welcome to SmartToF SDK User Guide!
  
 .. toctree::
    :caption: Tutorial
-
-
+   
    Tutorial/C_C++/index.rst
    Tutorial/Python/index.rst
    Tutorial/Csharp/index.rst
@@ -62,7 +60,7 @@ Welcome to SmartToF SDK User Guide!
 
 .. toctree::
    :caption: Reference
-
+   
    Reference/tools/index.rst
    Reference/C_C++/index.rst
    Reference/Python/index.rst   

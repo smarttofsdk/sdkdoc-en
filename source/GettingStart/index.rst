@@ -1,3 +1,6 @@
+Quick start
+=================
+
 .. toctree::
    :caption: Quick start
    

@@ -189,17 +189,6 @@ latex_elements = {
     \setcounter{secnumdepth}{2}
     \usepackage{fancyhdr}
     \pagestyle{fancy}
-    \titleformat{\chapter}{\centering\Huge\bfseries}{第\,\thechapter\,章}{1em}{}
-    \addto\captionsenglish{
-      \renewcommand{\contentsname}{目录}
-      \renewcommand{\listfigurename}{插图目录}
-      \renewcommand{\listtablename}{表格目录}
-      \renewcommand{\refname}{参考文献}
-      \renewcommand{\abstractname}{摘要}
-      \renewcommand{\indexname}{索引}
-      \renewcommand{\tablename}{表}
-      \renewcommand{\figurename}{图}
-    }
     ''',
     # 'classoptions': ',oneside'
     'fncychap' : '',

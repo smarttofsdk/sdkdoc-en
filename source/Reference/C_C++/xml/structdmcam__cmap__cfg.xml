@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__cmap__cfg" kind="struct" prot="public">
+    <compoundname>dmcam_cmap_cfg</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__cmap__cfg_1a197159b67f3f5e45c8ab2fada0c9d153" prot="public" static="no" mutable="no">
+        <type>dmcam_cmap_palette_e</type>
+        <definition>dmcam_cmap_palette_e dmcam_cmap_cfg::color_palette</definition>
+        <argsstring></argsstring>
+        <name>color_palette</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="1226" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="1226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cmap__cfg_1af5172d8fde04317b37f8b43521a50a65" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cmap_cfg::histeq_en</definition>
+        <argsstring></argsstring>
+        <name>histeq_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="1227" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="1227" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="1225" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="1225" bodyend="1228"/>
+    <listofallmembers>
+      <member refid="structdmcam__cmap__cfg_1a197159b67f3f5e45c8ab2fada0c9d153" prot="public" virt="non-virtual"><scope>dmcam_cmap_cfg</scope><name>color_palette</name></member>
+      <member refid="structdmcam__cmap__cfg_1af5172d8fde04317b37f8b43521a50a65" prot="public" virt="non-virtual"><scope>dmcam_cmap_cfg</scope><name>histeq_en</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

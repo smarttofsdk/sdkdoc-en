@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__cap" kind="struct" prot="public">
+    <compoundname>dmcam_cap</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__cap_1a9738a92486db096aee6a7f2a3918bde3" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_cap::max_frame_width</definition>
+        <argsstring></argsstring>
+        <name>max_frame_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="301" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1a784c11d17aa65f0f43e1c2d5b110c3b7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_cap::max_frame_height</definition>
+        <argsstring></argsstring>
+        <name>max_frame_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="302" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1a3e67080c617023c4e5ee89130bd6cd43" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_cap::max_frame_depth</definition>
+        <argsstring></argsstring>
+        <name>max_frame_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="303" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1ace1df82f8a41958d0d1cfe8ab804608d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_cap::max_fps</definition>
+        <argsstring></argsstring>
+        <name>max_fps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="304" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1a6b30cae36317bb4e342df445822001a9" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_cap::max_intg_us</definition>
+        <argsstring></argsstring>
+        <name>max_intg_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="305" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1a666c5bd29577423f5804e75fecd5a8ba" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cap::illum_board_type</definition>
+        <argsstring></argsstring>
+        <name>illum_board_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="306" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap_1a0c1a826b804042f3f9a561b8fe2bd8f0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cap::sensor_board_type</definition>
+        <argsstring></argsstring>
+        <name>sensor_board_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="307" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="300" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="300" bodyend="308"/>
+    <listofallmembers>
+      <member refid="structdmcam__cap_1a666c5bd29577423f5804e75fecd5a8ba" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>illum_board_type</name></member>
+      <member refid="structdmcam__cap_1ace1df82f8a41958d0d1cfe8ab804608d" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>max_fps</name></member>
+      <member refid="structdmcam__cap_1a3e67080c617023c4e5ee89130bd6cd43" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>max_frame_depth</name></member>
+      <member refid="structdmcam__cap_1a784c11d17aa65f0f43e1c2d5b110c3b7" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>max_frame_height</name></member>
+      <member refid="structdmcam__cap_1a9738a92486db096aee6a7f2a3918bde3" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>max_frame_width</name></member>
+      <member refid="structdmcam__cap_1a6b30cae36317bb4e342df445822001a9" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>max_intg_us</name></member>
+      <member refid="structdmcam__cap_1a0c1a826b804042f3f9a561b8fe2bd8f0" prot="public" virt="non-virtual"><scope>dmcam_cap</scope><name>sensor_board_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

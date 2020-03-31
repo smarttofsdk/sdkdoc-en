@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__cap__cfg__t" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_cap_cfg_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a2c210a2e12c6ad6ae5448045babfc286" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_cap_cfg_t::cache_frames_cnt</definition>
+        <argsstring></argsstring>
+        <name>cache_frames_cnt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="349" column="1" bodyfile="dmcam.h" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1add078b05b9ba384278972040e909383e" prot="public" static="no" mutable="no">
+        <type><ref refid="dmcam_8h_1ae80125ffb5a86afd2953e88acfb4c7b1" kindref="member">dmcam_cap_frdy_f</ref></type>
+        <definition>dmcam_cap_frdy_f dmcam_cap_cfg_t::on_frame_ready</definition>
+        <argsstring></argsstring>
+        <name>on_frame_ready</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="350" column="1" bodyfile="dmcam.h" bodystart="350" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a1fa2ebb10b2f3657e4664254e5b08ea9" prot="public" static="no" mutable="no">
+        <type>dmcam_cap_err_f</type>
+        <definition>dmcam_cap_err_f dmcam_cap_cfg_t::on_error</definition>
+        <argsstring></argsstring>
+        <name>on_error</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="351" column="1" bodyfile="dmcam.h" bodystart="351" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a222218bb0e5e26697fac0bf45eeaa891" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cap_cfg_t::en_save_replay</definition>
+        <argsstring></argsstring>
+        <name>en_save_replay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="353" column="1" bodyfile="dmcam.h" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a1c93f374123fbb6de0415a3989811cde" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cap_cfg_t::en_save_dist_u16</definition>
+        <argsstring></argsstring>
+        <name>en_save_dist_u16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="354" column="1" bodyfile="dmcam.h" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a81efed8148ae8c20318e57a2b7f7aaf5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_cap_cfg_t::en_save_gray_u16</definition>
+        <argsstring></argsstring>
+        <name>en_save_gray_u16</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="355" column="1" bodyfile="dmcam.h" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__cap__cfg__t_1a6b1bfdc261c77049a63c884684b9ae44" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* dmcam_cap_cfg_t::fname_replay</definition>
+        <argsstring></argsstring>
+        <name>fname_replay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="357" column="1" bodyfile="dmcam.h" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="52">
+        <label>dmcam_dev_if_info_usb</label>
+        <link refid="structdmcam__dev__if__info__usb"/>
+      </node>
+      <node id="50">
+        <label>dmcam_dev_t</label>
+        <link refid="structdmcam__dev__t"/>
+        <childnode refid="51" relation="usage">
+          <edgelabel>if_info</edgelabel>
+        </childnode>
+        <childnode refid="55" relation="usage">
+          <edgelabel>version</edgelabel>
+        </childnode>
+      </node>
+      <node id="49">
+        <label>dmcam_cap_cfg_t</label>
+        <link refid="structdmcam__cap__cfg__t"/>
+        <childnode refid="50" relation="usage">
+          <edgelabel>on_error</edgelabel>
+          <edgelabel>on_frame_ready</edgelabel>
+        </childnode>
+      </node>
+      <node id="51">
+        <label>dmcam_dev_if_info_t</label>
+        <link refid="structdmcam__dev__if__info__t"/>
+        <childnode refid="52" relation="usage">
+          <edgelabel>usb</edgelabel>
+        </childnode>
+        <childnode refid="53" relation="usage">
+          <edgelabel>eth</edgelabel>
+        </childnode>
+        <childnode refid="54" relation="usage">
+          <edgelabel>fil</edgelabel>
+        </childnode>
+      </node>
+      <node id="53">
+        <label>dmcam_dev_if_info_eth</label>
+        <link refid="structdmcam__dev__if__info__eth"/>
+      </node>
+      <node id="55">
+        <label>dmcam_dev_ver_u</label>
+        <link refid="uniondmcam__dev__ver__u"/>
+      </node>
+      <node id="54">
+        <label>dmcam_dev_if_info_fil</label>
+        <link refid="structdmcam__dev__if__info__fil"/>
+      </node>
+    </collaborationgraph>
+    <location file="dmcam.h" line="348" column="1" bodyfile="dmcam.h" bodystart="348" bodyend="358"/>
+    <listofallmembers>
+      <member refid="structdmcam__cap__cfg__t_1a2c210a2e12c6ad6ae5448045babfc286" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>cache_frames_cnt</name></member>
+      <member refid="structdmcam__cap__cfg__t_1a1c93f374123fbb6de0415a3989811cde" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>en_save_dist_u16</name></member>
+      <member refid="structdmcam__cap__cfg__t_1a81efed8148ae8c20318e57a2b7f7aaf5" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>en_save_gray_u16</name></member>
+      <member refid="structdmcam__cap__cfg__t_1a222218bb0e5e26697fac0bf45eeaa891" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>en_save_replay</name></member>
+      <member refid="structdmcam__cap__cfg__t_1a6b1bfdc261c77049a63c884684b9ae44" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>fname_replay</name></member>
+      <member refid="structdmcam__cap__cfg__t_1a1fa2ebb10b2f3657e4664254e5b08ea9" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>on_error</name></member>
+      <member refid="structdmcam__cap__cfg__t_1add078b05b9ba384278972040e909383e" prot="public" virt="non-virtual"><scope>dmcam_cap_cfg_t</scope><name>on_frame_ready</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

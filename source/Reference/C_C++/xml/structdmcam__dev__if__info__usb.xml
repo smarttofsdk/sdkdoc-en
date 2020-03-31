@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__dev__if__info__usb" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_dev_if_info_usb</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__dev__if__info__usb_1ad3e8b1b3b1bccce409cb1d936dcb7dc2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_if_info_usb::usb_bus_num</definition>
+        <argsstring></argsstring>
+        <name>usb_bus_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="52" column="1" bodyfile="dmcam.h" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__usb_1a543a7c9a81d24f30075b3a97532718cc" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_if_info_usb::usb_port_num</definition>
+        <argsstring></argsstring>
+        <name>usb_port_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="53" column="1" bodyfile="dmcam.h" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__usb_1a6f766bff1f581c89f674c474e9314716" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_if_info_usb::usb_dev_addr</definition>
+        <argsstring></argsstring>
+        <name>usb_dev_addr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="54" column="1" bodyfile="dmcam.h" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__usb_1a5d799249dbbd7c2ac8a3c7e5d5dd47c0" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_if_info_usb::usb_speed</definition>
+        <argsstring></argsstring>
+        <name>usb_speed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="55" column="1" bodyfile="dmcam.h" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dmcam.h" line="51" column="1" bodyfile="dmcam.h" bodystart="51" bodyend="56"/>
+    <listofallmembers>
+      <member refid="structdmcam__dev__if__info__usb_1ad3e8b1b3b1bccce409cb1d936dcb7dc2" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_usb</scope><name>usb_bus_num</name></member>
+      <member refid="structdmcam__dev__if__info__usb_1a6f766bff1f581c89f674c474e9314716" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_usb</scope><name>usb_dev_addr</name></member>
+      <member refid="structdmcam__dev__if__info__usb_1a543a7c9a81d24f30075b3a97532718cc" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_usb</scope><name>usb_port_num</name></member>
+      <member refid="structdmcam__dev__if__info__usb_1a5d799249dbbd7c2ac8a3c7e5d5dd47c0" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_usb</scope><name>usb_speed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

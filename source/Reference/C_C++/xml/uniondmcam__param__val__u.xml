@@ -1,0 +1,882 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="uniondmcam__param__val__u" kind="union" language="C++" prot="public">
+    <compoundname>dmcam_param_val_u</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a0ab03534a82eb31793aaa1ac1fb5765f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::raw[18]</definition>
+        <argsstring>[18]</argsstring>
+        <name>raw</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="226" column="1" bodyfile="dmcam.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a1d83f81d851d778f6dada329dd1020b6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::dev_mode</definition>
+        <argsstring></argsstring>
+        <name>dev_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="227" column="1" bodyfile="dmcam.h" bodystart="227" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a68584e6edb987cb54bf440fbfbd201c3" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::mod_freq</definition>
+        <argsstring></argsstring>
+        <name>mod_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="228" column="1" bodyfile="dmcam.h" bodystart="228" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a312014f435f1799881d2359d93cd369a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dmcam_param_val_u::info_vendor[18]</definition>
+        <argsstring>[18]</argsstring>
+        <name>info_vendor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="229" column="1" bodyfile="dmcam.h" bodystart="229" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a07c69922f1b4b15ed3ef4f3b511edf97" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dmcam_param_val_u::info_product[18]</definition>
+        <argsstring>[18]</argsstring>
+        <name>info_product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="230" column="1" bodyfile="dmcam.h" bodystart="230" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a636667419020020507f2ec7148246c1f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::ambient_light_coeff</definition>
+        <argsstring></argsstring>
+        <name>ambient_light_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="231" column="1" bodyfile="dmcam.h" bodystart="231" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ad7e7ad81a0aed797f6c7a3e8ce9ec0f5" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::max_frame_width</definition>
+        <argsstring></argsstring>
+        <name>max_frame_width</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="233" column="1" bodyfile="dmcam.h" bodystart="233" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a47405bfbf56126fab3a57a0a22f916e1" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::max_frame_height</definition>
+        <argsstring></argsstring>
+        <name>max_frame_height</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="234" column="1" bodyfile="dmcam.h" bodystart="234" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a2b0e2833f5b6556194eb565fbb90be9a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::max_frame_depth</definition>
+        <argsstring></argsstring>
+        <name>max_frame_depth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="235" column="1" bodyfile="dmcam.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aaa81a3d693cf5c3f2ae350367c65fc6a" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::max_fps</definition>
+        <argsstring></argsstring>
+        <name>max_fps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="236" column="1" bodyfile="dmcam.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aa9d6199b6763827add2b279be5245c3d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::max_intg_us</definition>
+        <argsstring></argsstring>
+        <name>max_intg_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="237" column="1" bodyfile="dmcam.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a839e62f138a879cb2190d8549dace4fc" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@2</type>
+        <definition>struct dmcam_param_val_u::@2  dmcam_param_val_u::info_capability</definition>
+        <argsstring></argsstring>
+        <name>info_capability</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="238" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a1e64a6b3efdbe6fda164829f41bf7b6c" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::serial[3]</definition>
+        <argsstring>[3]</argsstring>
+        <name>serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="240" column="1" bodyfile="dmcam.h" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a2b1a3c0a6d98921d7d2612bf7df561d3" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@3</type>
+        <definition>struct dmcam_param_val_u::@3  dmcam_param_val_u::info_serial</definition>
+        <argsstring></argsstring>
+        <name>info_serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="241" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ad96fc862ce4146f8e4e89eb1e23d8832" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::hw_ver</definition>
+        <argsstring></argsstring>
+        <name>hw_ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="243" column="1" bodyfile="dmcam.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aace043054f54e9da38a5383b63700f9d" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::sw_ver</definition>
+        <argsstring></argsstring>
+        <name>sw_ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="244" column="1" bodyfile="dmcam.h" bodystart="244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a3fc6cbedf17de6ff2fdb362d0c03f39e" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::sw2_ver</definition>
+        <argsstring></argsstring>
+        <name>sw2_ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="245" column="1" bodyfile="dmcam.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a917596045bb374947fd7d5f9451df7ff" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::hw2_ver</definition>
+        <argsstring></argsstring>
+        <name>hw2_ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="246" column="1" bodyfile="dmcam.h" bodystart="246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aed35b08491ff5e2f142ecd1371198e50" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@4</type>
+        <definition>struct dmcam_param_val_u::@4  dmcam_param_val_u::info_version</definition>
+        <argsstring></argsstring>
+        <name>info_version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="247" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a2db788005d0705f1334c0818af318fa2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::format</definition>
+        <argsstring></argsstring>
+        <name>format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="249" column="1" bodyfile="dmcam.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aca03a9534579c2e133c4c5f425af8d4d" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@5</type>
+        <definition>struct dmcam_param_val_u::@5  dmcam_param_val_u::frame_format</definition>
+        <argsstring></argsstring>
+        <name>frame_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="250" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a51e718fcd8c98d7a314298d27ff9e525" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::fps</definition>
+        <argsstring></argsstring>
+        <name>fps</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="252" column="1" bodyfile="dmcam.h" bodystart="252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a7c0a80efbb9ef45f1bc46be3f84ab512" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@6</type>
+        <definition>struct dmcam_param_val_u::@6  dmcam_param_val_u::frame_rate</definition>
+        <argsstring></argsstring>
+        <name>frame_rate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="253" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ad912e47451f683b77f33329932cbe7f5" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::random_delay_en</definition>
+        <argsstring></argsstring>
+        <name>random_delay_en</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="255" column="1" bodyfile="dmcam.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1adb5fa65827aef64bff3748fb616f33c1" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::delay</definition>
+        <argsstring></argsstring>
+        <name>delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="256" column="1" bodyfile="dmcam.h" bodystart="256" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a96923a358bf7bd30044e703b1e2de24d" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@7</type>
+        <definition>struct dmcam_param_val_u::@7 dmcam_param_val_u::sync_delay</definition>
+        <argsstring></argsstring>
+        <name>sync_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="257" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a5756fe3d8204d1719f018e057823d73d" prot="public" static="no" mutable="no">
+        <type><ref refid="structdmcam__param__roi__t" kindref="compound">dmcam_param_roi_t</ref></type>
+        <definition>dmcam_param_roi_t dmcam_param_val_u::roi</definition>
+        <argsstring></argsstring>
+        <name>roi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="258" column="1" bodyfile="dmcam.h" bodystart="258" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a41ba008501865490186d479002e0f2f2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::percent</definition>
+        <argsstring></argsstring>
+        <name>percent</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="260" column="1" bodyfile="dmcam.h" bodystart="260" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a62d414ae7ac0ffb7b2e301a6767ab54d" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@8</type>
+        <definition>struct dmcam_param_val_u::@8  dmcam_param_val_u::illum_power</definition>
+        <argsstring></argsstring>
+        <name>illum_power</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="261" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1adc829630c04fb86b1717f589ba748ca8" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::intg_us</definition>
+        <argsstring></argsstring>
+        <name>intg_us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="263" column="1" bodyfile="dmcam.h" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1af5b19f4bed38ddafa534717b5c839ac3" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@9</type>
+        <definition>struct dmcam_param_val_u::@9  dmcam_param_val_u::intg</definition>
+        <argsstring></argsstring>
+        <name>intg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="264" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a4b8cd4386421cc3a87177475f4034895" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::intg_3dhdr</definition>
+        <argsstring></argsstring>
+        <name>intg_3dhdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="266" column="1" bodyfile="dmcam.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ab818e217c0e0c218730567593d069981" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@10</type>
+        <definition>struct dmcam_param_val_u::@10 dmcam_param_val_u::intg_hdr</definition>
+        <argsstring></argsstring>
+        <name>intg_hdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="267" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a38579d9650ff64ae32a16a50ea076fd5" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::corr1</definition>
+        <argsstring></argsstring>
+        <name>corr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="269" column="1" bodyfile="dmcam.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a86eda3f8610735428e70ae70655ac5b7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::corr2</definition>
+        <argsstring></argsstring>
+        <name>corr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="270" column="1" bodyfile="dmcam.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a27e869eef4015ca21df8825b48bd8d7a" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@11</type>
+        <definition>struct dmcam_param_val_u::@11 dmcam_param_val_u::phase_corr</definition>
+        <argsstring></argsstring>
+        <name>phase_corr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="271" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ac4d35be277984f9d5fa966b26214140b" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_param_val_u::tl_cal</definition>
+        <argsstring></argsstring>
+        <name>tl_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="273" column="1" bodyfile="dmcam.h" bodystart="273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a9d9a3812b7b623907cde6435792c48e6" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_param_val_u::tr_cal</definition>
+        <argsstring></argsstring>
+        <name>tr_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="274" column="1" bodyfile="dmcam.h" bodystart="274" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a0319f0dc190babd199ff435313eb3dc2" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_param_val_u::bl_cal</definition>
+        <argsstring></argsstring>
+        <name>bl_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="275" column="1" bodyfile="dmcam.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a1d21ceaf05ed5384d256ce8f70eb7ec1" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_param_val_u::br_cal</definition>
+        <argsstring></argsstring>
+        <name>br_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="276" column="1" bodyfile="dmcam.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a3a1ccd1f2cf239b7a2342e204ae8b99f" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_param_val_u::ib_cal</definition>
+        <argsstring></argsstring>
+        <name>ib_cal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="277" column="1" bodyfile="dmcam.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a11e0aa618cc23be96452949f349e9f2d" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@12</type>
+        <definition>struct dmcam_param_val_u::@12 dmcam_param_val_u::temp</definition>
+        <argsstring></argsstring>
+        <name>temp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="278" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ab9bea640c402b891a82a42b1121ea3b7" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::valid</definition>
+        <argsstring></argsstring>
+        <name>valid</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="280" column="1" bodyfile="dmcam.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a1ed450c88742396d519272a54732f19e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="281" column="1" bodyfile="dmcam.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a0aa906ddf37d1e57d38128ee096f75ae" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="282" column="1" bodyfile="dmcam.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a49047fdb787dfd35eea9cda3c3cb9d54" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::timestamp</definition>
+        <argsstring></argsstring>
+        <name>timestamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="283" column="1" bodyfile="dmcam.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a9ebbe6f86029e3576a95886b19ffd264" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::fsize</definition>
+        <argsstring></argsstring>
+        <name>fsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="284" column="1" bodyfile="dmcam.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1acc2cfce91806e407a7ed14c578a7a089" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::datasize</definition>
+        <argsstring></argsstring>
+        <name>datasize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="285" column="1" bodyfile="dmcam.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a05e61825ec8a18c7bf9ac75e27dca860" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@13</type>
+        <definition>struct dmcam_param_val_u::@13 dmcam_param_val_u::cinfo</definition>
+        <argsstring></argsstring>
+        <name>cinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="286" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ac65cc1e6d7391e45f44e0100200edccf" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::part_ver</definition>
+        <argsstring></argsstring>
+        <name>part_ver</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="288" column="1" bodyfile="dmcam.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1acbb18884a7b73feec3cb100a6b8030fa" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::chip_id</definition>
+        <argsstring></argsstring>
+        <name>chip_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="289" column="1" bodyfile="dmcam.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ab0854c7be19806a3ee4bd82c9d34e43c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_val_u::wafer_id</definition>
+        <argsstring></argsstring>
+        <name>wafer_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="290" column="1" bodyfile="dmcam.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a55e0560ebd7861489284b7c784a45a5e" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@14</type>
+        <definition>struct dmcam_param_val_u::@14 dmcam_param_val_u::chip_info</definition>
+        <argsstring></argsstring>
+        <name>chip_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="291" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1aef69f1e3c7557818739341188bc72dc8" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float dmcam_param_val_u::offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="294" column="1" bodyfile="dmcam.h" bodystart="294" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a9e1219d240e2a2c2ba2ead22e71cccc3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float dmcam_param_val_u::coeff</definition>
+        <argsstring></argsstring>
+        <name>coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="295" column="1" bodyfile="dmcam.h" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a162518b58debead460b3ca009f357bf2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::random_freq</definition>
+        <argsstring></argsstring>
+        <name>random_freq</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="296" column="1" bodyfile="dmcam.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a04853aa79cbde1e293907c96c031573e" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_val_u::frm_format</definition>
+        <argsstring></argsstring>
+        <name>frm_format</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="298" column="1" bodyfile="dmcam.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a07bee4bcf1fe756242e9dd07707fff3d" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@15</type>
+        <definition>struct dmcam_param_val_u::@15 dmcam_param_val_u::sys_calib_coeff</definition>
+        <argsstring></argsstring>
+        <name>sys_calib_coeff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="299" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1a848f1681ad2d154a15bc9fa630bd858e" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::sec</definition>
+        <argsstring></argsstring>
+        <name>sec</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="301" column="1" bodyfile="dmcam.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ab21701de13d2d69eb015d8c9a4a78c84" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_val_u::us</definition>
+        <argsstring></argsstring>
+        <name>us</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="302" column="1" bodyfile="dmcam.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__param__val__u_1ad9c1bd8e78963536fda7ed9035c7ef1f" prot="public" static="no" mutable="no">
+        <type>struct dmcam_param_val_u::@16</type>
+        <definition>struct dmcam_param_val_u::@16 dmcam_param_val_u::sync_time</definition>
+        <argsstring></argsstring>
+        <name>sync_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="303" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="90">
+        <label>dmcam_param_val_u</label>
+        <link refid="uniondmcam__param__val__u"/>
+        <childnode refid="91" relation="usage">
+          <edgelabel>roi</edgelabel>
+        </childnode>
+      </node>
+      <node id="91">
+        <label>dmcam_param_roi_t</label>
+        <link refid="structdmcam__param__roi__t"/>
+      </node>
+    </collaborationgraph>
+    <location file="dmcam.h" line="225" column="1" bodyfile="dmcam.h" bodystart="225" bodyend="304"/>
+    <listofallmembers>
+      <member refid="uniondmcam__param__val__u_1a636667419020020507f2ec7148246c1f" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>ambient_light_coeff</name></member>
+      <member refid="uniondmcam__param__val__u_1a0319f0dc190babd199ff435313eb3dc2" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>bl_cal</name></member>
+      <member refid="uniondmcam__param__val__u_1a1d21ceaf05ed5384d256ce8f70eb7ec1" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>br_cal</name></member>
+      <member refid="uniondmcam__param__val__u_1acbb18884a7b73feec3cb100a6b8030fa" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>chip_id</name></member>
+      <member refid="uniondmcam__param__val__u_1a55e0560ebd7861489284b7c784a45a5e" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>chip_info</name></member>
+      <member refid="uniondmcam__param__val__u_1a05e61825ec8a18c7bf9ac75e27dca860" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>cinfo</name></member>
+      <member refid="uniondmcam__param__val__u_1a9e1219d240e2a2c2ba2ead22e71cccc3" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>coeff</name></member>
+      <member refid="uniondmcam__param__val__u_1a38579d9650ff64ae32a16a50ea076fd5" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>corr1</name></member>
+      <member refid="uniondmcam__param__val__u_1a86eda3f8610735428e70ae70655ac5b7" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>corr2</name></member>
+      <member refid="uniondmcam__param__val__u_1acc2cfce91806e407a7ed14c578a7a089" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>datasize</name></member>
+      <member refid="uniondmcam__param__val__u_1adb5fa65827aef64bff3748fb616f33c1" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>delay</name></member>
+      <member refid="uniondmcam__param__val__u_1a1d83f81d851d778f6dada329dd1020b6" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>dev_mode</name></member>
+      <member refid="uniondmcam__param__val__u_1a1ed450c88742396d519272a54732f19e" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>flag</name></member>
+      <member refid="uniondmcam__param__val__u_1a2db788005d0705f1334c0818af318fa2" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>format</name></member>
+      <member refid="uniondmcam__param__val__u_1a51e718fcd8c98d7a314298d27ff9e525" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>fps</name></member>
+      <member refid="uniondmcam__param__val__u_1aca03a9534579c2e133c4c5f425af8d4d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>frame_format</name></member>
+      <member refid="uniondmcam__param__val__u_1a7c0a80efbb9ef45f1bc46be3f84ab512" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>frame_rate</name></member>
+      <member refid="uniondmcam__param__val__u_1a04853aa79cbde1e293907c96c031573e" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>frm_format</name></member>
+      <member refid="uniondmcam__param__val__u_1a9ebbe6f86029e3576a95886b19ffd264" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>fsize</name></member>
+      <member refid="uniondmcam__param__val__u_1a917596045bb374947fd7d5f9451df7ff" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>hw2_ver</name></member>
+      <member refid="uniondmcam__param__val__u_1ad96fc862ce4146f8e4e89eb1e23d8832" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>hw_ver</name></member>
+      <member refid="uniondmcam__param__val__u_1a3a1ccd1f2cf239b7a2342e204ae8b99f" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>ib_cal</name></member>
+      <member refid="uniondmcam__param__val__u_1a0aa906ddf37d1e57d38128ee096f75ae" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>ID</name></member>
+      <member refid="uniondmcam__param__val__u_1a62d414ae7ac0ffb7b2e301a6767ab54d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>illum_power</name></member>
+      <member refid="uniondmcam__param__val__u_1a839e62f138a879cb2190d8549dace4fc" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>info_capability</name></member>
+      <member refid="uniondmcam__param__val__u_1a07c69922f1b4b15ed3ef4f3b511edf97" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>info_product</name></member>
+      <member refid="uniondmcam__param__val__u_1a2b1a3c0a6d98921d7d2612bf7df561d3" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>info_serial</name></member>
+      <member refid="uniondmcam__param__val__u_1a312014f435f1799881d2359d93cd369a" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>info_vendor</name></member>
+      <member refid="uniondmcam__param__val__u_1aed35b08491ff5e2f142ecd1371198e50" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>info_version</name></member>
+      <member refid="uniondmcam__param__val__u_1af5b19f4bed38ddafa534717b5c839ac3" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>intg</name></member>
+      <member refid="uniondmcam__param__val__u_1a4b8cd4386421cc3a87177475f4034895" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>intg_3dhdr</name></member>
+      <member refid="uniondmcam__param__val__u_1ab818e217c0e0c218730567593d069981" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>intg_hdr</name></member>
+      <member refid="uniondmcam__param__val__u_1adc829630c04fb86b1717f589ba748ca8" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>intg_us</name></member>
+      <member refid="uniondmcam__param__val__u_1aaa81a3d693cf5c3f2ae350367c65fc6a" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>max_fps</name></member>
+      <member refid="uniondmcam__param__val__u_1a2b0e2833f5b6556194eb565fbb90be9a" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>max_frame_depth</name></member>
+      <member refid="uniondmcam__param__val__u_1a47405bfbf56126fab3a57a0a22f916e1" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>max_frame_height</name></member>
+      <member refid="uniondmcam__param__val__u_1ad7e7ad81a0aed797f6c7a3e8ce9ec0f5" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>max_frame_width</name></member>
+      <member refid="uniondmcam__param__val__u_1aa9d6199b6763827add2b279be5245c3d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>max_intg_us</name></member>
+      <member refid="uniondmcam__param__val__u_1a68584e6edb987cb54bf440fbfbd201c3" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>mod_freq</name></member>
+      <member refid="uniondmcam__param__val__u_1aef69f1e3c7557818739341188bc72dc8" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>offset</name></member>
+      <member refid="uniondmcam__param__val__u_1ac65cc1e6d7391e45f44e0100200edccf" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>part_ver</name></member>
+      <member refid="uniondmcam__param__val__u_1a41ba008501865490186d479002e0f2f2" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>percent</name></member>
+      <member refid="uniondmcam__param__val__u_1a27e869eef4015ca21df8825b48bd8d7a" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>phase_corr</name></member>
+      <member refid="uniondmcam__param__val__u_1ad912e47451f683b77f33329932cbe7f5" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>random_delay_en</name></member>
+      <member refid="uniondmcam__param__val__u_1a162518b58debead460b3ca009f357bf2" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>random_freq</name></member>
+      <member refid="uniondmcam__param__val__u_1a0ab03534a82eb31793aaa1ac1fb5765f" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>raw</name></member>
+      <member refid="uniondmcam__param__val__u_1a5756fe3d8204d1719f018e057823d73d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>roi</name></member>
+      <member refid="uniondmcam__param__val__u_1a848f1681ad2d154a15bc9fa630bd858e" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sec</name></member>
+      <member refid="uniondmcam__param__val__u_1a1e64a6b3efdbe6fda164829f41bf7b6c" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>serial</name></member>
+      <member refid="uniondmcam__param__val__u_1a3fc6cbedf17de6ff2fdb362d0c03f39e" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sw2_ver</name></member>
+      <member refid="uniondmcam__param__val__u_1aace043054f54e9da38a5383b63700f9d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sw_ver</name></member>
+      <member refid="uniondmcam__param__val__u_1a96923a358bf7bd30044e703b1e2de24d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sync_delay</name></member>
+      <member refid="uniondmcam__param__val__u_1ad9c1bd8e78963536fda7ed9035c7ef1f" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sync_time</name></member>
+      <member refid="uniondmcam__param__val__u_1a07bee4bcf1fe756242e9dd07707fff3d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>sys_calib_coeff</name></member>
+      <member refid="uniondmcam__param__val__u_1a11e0aa618cc23be96452949f349e9f2d" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>temp</name></member>
+      <member refid="uniondmcam__param__val__u_1a49047fdb787dfd35eea9cda3c3cb9d54" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>timestamp</name></member>
+      <member refid="uniondmcam__param__val__u_1ac4d35be277984f9d5fa966b26214140b" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>tl_cal</name></member>
+      <member refid="uniondmcam__param__val__u_1a9d9a3812b7b623907cde6435792c48e6" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>tr_cal</name></member>
+      <member refid="uniondmcam__param__val__u_1ab21701de13d2d69eb015d8c9a4a78c84" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>us</name></member>
+      <member refid="uniondmcam__param__val__u_1ab9bea640c402b891a82a42b1121ea3b7" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>valid</name></member>
+      <member refid="uniondmcam__param__val__u_1ab0854c7be19806a3ee4bd82c9d34e43c" prot="public" virt="non-virtual"><scope>dmcam_param_val_u</scope><name>wafer_id</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

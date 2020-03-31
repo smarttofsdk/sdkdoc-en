@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="uniondmcam__filter__args__u" kind="union" language="C++" prot="public">
+    <compoundname>dmcam_filter_args_u</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a22c0066afe25327e84a6befb61ffbd7b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_filter_args_u::case_idx</definition>
+        <argsstring></argsstring>
+        <name>case_idx</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="579" column="1" bodyfile="dmcam.h" bodystart="579" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a184d1b6a3e7b3109e5ff85cd71ffdaf7" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_filter_args_u::lens_id</definition>
+        <argsstring></argsstring>
+        <name>lens_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&gt;User Scenario index </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="580" column="1" bodyfile="dmcam.h" bodystart="580" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a682d6eb9a5750e89977ee126555c92f9" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::min_amp</definition>
+        <argsstring></argsstring>
+        <name>min_amp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_LEN_CALIB parameter: length index </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="581" column="1" bodyfile="dmcam.h" bodystart="581" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a0126a90774545dd6ad47c4b2687553e9" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::sat_ratio</definition>
+        <argsstring></argsstring>
+        <name>sat_ratio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_AMP parameter: Min amplitude threshold </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="582" column="1" bodyfile="dmcam.h" bodystart="582" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a925d145a6eb431b5aaac0e81db568268" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::sync_delay</definition>
+        <argsstring></argsstring>
+        <name>sync_delay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_AUTO_INTG parameter: saturation ratio threshold </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="583" column="1" bodyfile="dmcam.h" bodystart="583" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1adf5e6948721fe5579d388dd6001eb97f" prot="public" static="no" mutable="no">
+        <type>int16_t</type>
+        <definition>int16_t dmcam_filter_args_u::temp_threshold</definition>
+        <argsstring></argsstring>
+        <name>temp_threshold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_SYNC_DELAY parameter: sync delay: 0 = random delay, 1 = specified delay in ms </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="584" column="1" bodyfile="dmcam.h" bodystart="584" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a49a503990e4290359007bf39119bc8f1" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::intg_3d</definition>
+        <argsstring></argsstring>
+        <name>intg_3d</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="586" column="1" bodyfile="dmcam.h" bodystart="586" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1adafb76cc8f44326824492fad4a7df54c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::intg_3dhdr</definition>
+        <argsstring></argsstring>
+        <name>intg_3dhdr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>intg_3d: exposure time 0 </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="587" column="1" bodyfile="dmcam.h" bodystart="587" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1afceffe2c6d125474adf4f40116b9f5d9" prot="public" static="no" mutable="no">
+        <type>struct dmcam_filter_args_u::@0</type>
+        <definition>struct dmcam_filter_args_u::@0 dmcam_filter_args_u::intg</definition>
+        <argsstring></argsstring>
+        <name>intg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_TEMP_MONITOR paramter: Temperature threshold for temperature monitor </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="588" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1ac7dcd5e191772053a96dafb1f5613b22" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_filter_args_u::median_ksize</definition>
+        <argsstring></argsstring>
+        <name>median_ksize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_HDR paramter </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="589" column="1" bodyfile="dmcam.h" bodystart="589" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1abfe369df4afe55b17106079c9a2bbe1b" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t dmcam_filter_args_u::offset_mm</definition>
+        <argsstring></argsstring>
+        <name>offset_mm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_MEDIAN paramter: kernel size. Normally use 3 or 5 </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="590" column="1" bodyfile="dmcam.h" bodystart="590" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a3ceba90f8948d00b6e7623352f70317f" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_filter_args_u::sport_mode</definition>
+        <argsstring></argsstring>
+        <name>sport_mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_OFFSET paramter : offset in mm for DMCMA_FILTER_ID_OFFSET filter </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="591" column="1" bodyfile="dmcam.h" bodystart="591" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="uniondmcam__filter__args__u_1a74aa563c60985e8bd62fc93e4826f53f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_filter_args_u::k_ambient_light</definition>
+        <argsstring></argsstring>
+        <name>k_ambient_light</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><blockquote><para>DMCAM_FILTER_ID_SPORT_MODE parameter: 0 = high motion mode, 1 = extrem high motion mode </para></blockquote></para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="592" column="1" bodyfile="dmcam.h" bodystart="592" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dmcam.h" line="578" column="1" bodyfile="dmcam.h" bodystart="578" bodyend="593"/>
+    <listofallmembers>
+      <member refid="uniondmcam__filter__args__u_1a22c0066afe25327e84a6befb61ffbd7b" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>case_idx</name></member>
+      <member refid="uniondmcam__filter__args__u_1afceffe2c6d125474adf4f40116b9f5d9" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>intg</name></member>
+      <member refid="uniondmcam__filter__args__u_1a49a503990e4290359007bf39119bc8f1" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>intg_3d</name></member>
+      <member refid="uniondmcam__filter__args__u_1adafb76cc8f44326824492fad4a7df54c" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>intg_3dhdr</name></member>
+      <member refid="uniondmcam__filter__args__u_1a74aa563c60985e8bd62fc93e4826f53f" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>k_ambient_light</name></member>
+      <member refid="uniondmcam__filter__args__u_1a184d1b6a3e7b3109e5ff85cd71ffdaf7" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>lens_id</name></member>
+      <member refid="uniondmcam__filter__args__u_1ac7dcd5e191772053a96dafb1f5613b22" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>median_ksize</name></member>
+      <member refid="uniondmcam__filter__args__u_1a682d6eb9a5750e89977ee126555c92f9" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>min_amp</name></member>
+      <member refid="uniondmcam__filter__args__u_1abfe369df4afe55b17106079c9a2bbe1b" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>offset_mm</name></member>
+      <member refid="uniondmcam__filter__args__u_1a0126a90774545dd6ad47c4b2687553e9" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>sat_ratio</name></member>
+      <member refid="uniondmcam__filter__args__u_1a3ceba90f8948d00b6e7623352f70317f" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>sport_mode</name></member>
+      <member refid="uniondmcam__filter__args__u_1a925d145a6eb431b5aaac0e81db568268" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>sync_delay</name></member>
+      <member refid="uniondmcam__filter__args__u_1adf5e6948721fe5579d388dd6001eb97f" prot="public" virt="non-virtual"><scope>dmcam_filter_args_u</scope><name>temp_threshold</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

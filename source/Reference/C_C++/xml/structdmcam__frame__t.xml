@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__frame__t" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_frame_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__frame__t_1ac0d1f4e4896e6fe15ba66be93d05f3b7" prot="public" static="no" mutable="no">
+        <type><ref refid="structdmcam__frame__info__t" kindref="compound">dmcam_frame_info_t</ref></type>
+        <definition>dmcam_frame_info_t dmcam_frame_t::frame_info</definition>
+        <argsstring></argsstring>
+        <name>frame_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="340" column="1" bodyfile="dmcam.h" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__frame__t_1a387afc351776603e37621af1102a4f56" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_frame_t::frame_data</definition>
+        <argsstring></argsstring>
+        <name>frame_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="341" column="1" bodyfile="dmcam.h" bodystart="341" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="82">
+        <label>dmcam_frame_info_t</label>
+        <link refid="structdmcam__frame__info__t"/>
+      </node>
+      <node id="81">
+        <label>dmcam_frame_t</label>
+        <link refid="structdmcam__frame__t"/>
+        <childnode refid="82" relation="usage">
+          <edgelabel>frame_info</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="dmcam.h" line="339" column="1" bodyfile="dmcam.h" bodystart="339" bodyend="342"/>
+    <listofallmembers>
+      <member refid="structdmcam__frame__t_1a387afc351776603e37621af1102a4f56" prot="public" virt="non-virtual"><scope>dmcam_frame_t</scope><name>frame_data</name></member>
+      <member refid="structdmcam__frame__t_1ac0d1f4e4896e6fe15ba66be93d05f3b7" prot="public" virt="non-virtual"><scope>dmcam_frame_t</scope><name>frame_info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

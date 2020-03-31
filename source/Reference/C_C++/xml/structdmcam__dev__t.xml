@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__dev__t" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_dev_t</compoundname>
+    <includes refid="dmcam_8h" local="no">dmcam.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__dev__t_1a2aa826a48c656096541cd13894b605eb" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_dev_t::handler</definition>
+        <argsstring></argsstring>
+        <name>handler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="93" column="1" bodyfile="dmcam.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a9a2b5070f2858d3e78f047a229328429" prot="public" static="no" mutable="no">
+        <type><ref refid="structdmcam__dev__if__info__t" kindref="compound">dmcam_dev_if_info_t</ref></type>
+        <definition>dmcam_dev_if_info_t dmcam_dev_t::if_info</definition>
+        <argsstring></argsstring>
+        <name>if_info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="95" column="1" bodyfile="dmcam.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1aabf8a075e7a046aaedee540b28e4a41d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dmcam_dev_t::product[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>product</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="98" column="1" bodyfile="dmcam.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1ab766863daaead07eff19709ffd0e8314" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dmcam_dev_t::vendor[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>vendor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="99" column="1" bodyfile="dmcam.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a6134496dbca558c277fe125d24053051" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char dmcam_dev_t::serial[32]</definition>
+        <argsstring>[32]</argsstring>
+        <name>serial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="100" column="1" bodyfile="dmcam.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a17422d5663815019f706abbc960c4a89" prot="public" static="no" mutable="no">
+        <type>uint64_t</type>
+        <definition>uint64_t dmcam_dev_t::dev_id</definition>
+        <argsstring></argsstring>
+        <name>dev_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="102" column="1" bodyfile="dmcam.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1abd94c6a3249fe2cf24b6be657376149f" prot="public" static="no" mutable="no">
+        <type><ref refid="uniondmcam__dev__ver__u" kindref="compound">dmcam_dev_ver_u</ref></type>
+        <definition>dmcam_dev_ver_u dmcam_dev_t::version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="104" column="1" bodyfile="dmcam.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1ac6add4d53e53b0d2a81df537e60c600e" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* dmcam_dev_t::expath</definition>
+        <argsstring></argsstring>
+        <name>expath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="107" column="1" bodyfile="dmcam.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a74516d03f08d1c30ecc8a7e17cd723d3" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_dev_t::lock</definition>
+        <argsstring></argsstring>
+        <name>lock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="108" column="1" bodyfile="dmcam.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a6191940e22477598a5d42088f25ca288" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_dev_t::user_data0</definition>
+        <argsstring></argsstring>
+        <name>user_data0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="110" column="1" bodyfile="dmcam.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a8c908321d7ee526e489dbe698ee821cc" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_dev_t::user_data1</definition>
+        <argsstring></argsstring>
+        <name>user_data1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="111" column="1" bodyfile="dmcam.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a1457a89e366cc1df3414ba8590aab272" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_t::init_flag</definition>
+        <argsstring></argsstring>
+        <name>init_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="112" column="1" bodyfile="dmcam.h" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1ae1c5fcb29c0f81ad590627668d9a8059" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_t::alloc_flag</definition>
+        <argsstring></argsstring>
+        <name>alloc_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="113" column="1" bodyfile="dmcam.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__t_1a89410452d83cad02f822eb800ca3b7c2" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_dev_t::api_flag</definition>
+        <argsstring></argsstring>
+        <name>api_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="114" column="1" bodyfile="dmcam.h" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>dmcam device structure. It describes device usb port info, device info </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="70">
+        <label>dmcam_dev_if_info_usb</label>
+        <link refid="structdmcam__dev__if__info__usb"/>
+      </node>
+      <node id="68">
+        <label>dmcam_dev_t</label>
+        <link refid="structdmcam__dev__t"/>
+        <childnode refid="69" relation="usage">
+          <edgelabel>if_info</edgelabel>
+        </childnode>
+        <childnode refid="73" relation="usage">
+          <edgelabel>version</edgelabel>
+        </childnode>
+      </node>
+      <node id="69">
+        <label>dmcam_dev_if_info_t</label>
+        <link refid="structdmcam__dev__if__info__t"/>
+        <childnode refid="70" relation="usage">
+          <edgelabel>usb</edgelabel>
+        </childnode>
+        <childnode refid="71" relation="usage">
+          <edgelabel>eth</edgelabel>
+        </childnode>
+        <childnode refid="72" relation="usage">
+          <edgelabel>fil</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>dmcam_dev_if_info_eth</label>
+        <link refid="structdmcam__dev__if__info__eth"/>
+      </node>
+      <node id="73">
+        <label>dmcam_dev_ver_u</label>
+        <link refid="uniondmcam__dev__ver__u"/>
+      </node>
+      <node id="72">
+        <label>dmcam_dev_if_info_fil</label>
+        <link refid="structdmcam__dev__if__info__fil"/>
+      </node>
+    </collaborationgraph>
+    <location file="dmcam.h" line="92" column="1" bodyfile="dmcam.h" bodystart="92" bodyend="115"/>
+    <listofallmembers>
+      <member refid="structdmcam__dev__t_1ae1c5fcb29c0f81ad590627668d9a8059" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>alloc_flag</name></member>
+      <member refid="structdmcam__dev__t_1a89410452d83cad02f822eb800ca3b7c2" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>api_flag</name></member>
+      <member refid="structdmcam__dev__t_1a17422d5663815019f706abbc960c4a89" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>dev_id</name></member>
+      <member refid="structdmcam__dev__t_1ac6add4d53e53b0d2a81df537e60c600e" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>expath</name></member>
+      <member refid="structdmcam__dev__t_1a2aa826a48c656096541cd13894b605eb" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>handler</name></member>
+      <member refid="structdmcam__dev__t_1a9a2b5070f2858d3e78f047a229328429" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>if_info</name></member>
+      <member refid="structdmcam__dev__t_1a1457a89e366cc1df3414ba8590aab272" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>init_flag</name></member>
+      <member refid="structdmcam__dev__t_1a74516d03f08d1c30ecc8a7e17cd723d3" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>lock</name></member>
+      <member refid="structdmcam__dev__t_1aabf8a075e7a046aaedee540b28e4a41d" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>product</name></member>
+      <member refid="structdmcam__dev__t_1a6134496dbca558c277fe125d24053051" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>serial</name></member>
+      <member refid="structdmcam__dev__t_1a6191940e22477598a5d42088f25ca288" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>user_data0</name></member>
+      <member refid="structdmcam__dev__t_1a8c908321d7ee526e489dbe698ee821cc" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>user_data1</name></member>
+      <member refid="structdmcam__dev__t_1ab766863daaead07eff19709ffd0e8314" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>vendor</name></member>
+      <member refid="structdmcam__dev__t_1abd94c6a3249fe2cf24b6be657376149f" prot="public" virt="non-virtual"><scope>dmcam_dev_t</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__dev__if__info__fil" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_dev_if_info_fil</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__dev__if__info__fil_1a7cc878da2d861c3cee9224c114c383d6" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* dmcam_dev_if_info_fil::fd</definition>
+        <argsstring></argsstring>
+        <name>fd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="65" column="1" bodyfile="dmcam.h" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__fil_1acdea45f7fbbc0330bd8c6fe65257c492" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* dmcam_dev_if_info_fil::fname</definition>
+        <argsstring></argsstring>
+        <name>fname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="66" column="1" bodyfile="dmcam.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="dmcam.h" line="64" column="1" bodyfile="dmcam.h" bodystart="64" bodyend="67"/>
+    <listofallmembers>
+      <member refid="structdmcam__dev__if__info__fil_1a7cc878da2d861c3cee9224c114c383d6" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_fil</scope><name>fd</name></member>
+      <member refid="structdmcam__dev__if__info__fil_1acdea45f7fbbc0330bd8c6fe65257c492" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_fil</scope><name>fname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

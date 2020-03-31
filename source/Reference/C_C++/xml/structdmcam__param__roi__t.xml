@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__param__roi__t" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_param_roi_t</compoundname>
+    <includes refid="dmcam_8h" local="no">dmcam.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a295513df3516d7783c992d8b16357277" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_roi_t::srow</definition>
+        <argsstring></argsstring>
+        <name>srow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="214" column="1" bodyfile="dmcam.h" bodystart="214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a25c4365134243d033de095e2932deb5c" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_roi_t::erow</definition>
+        <argsstring></argsstring>
+        <name>erow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="215" column="1" bodyfile="dmcam.h" bodystart="215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a868c9beea6a8f0e7cd36bac3ee8bac4f" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_roi_t::scol</definition>
+        <argsstring></argsstring>
+        <name>scol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="216" column="1" bodyfile="dmcam.h" bodystart="216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a8b2ff5df6e7a998e6f4c3167606b0693" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t dmcam_param_roi_t::ecol</definition>
+        <argsstring></argsstring>
+        <name>ecol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="217" column="1" bodyfile="dmcam.h" bodystart="217" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a8c44be5c15adbc69a6c0654fa24899c2" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_roi_t::cur_fsize</definition>
+        <argsstring></argsstring>
+        <name>cur_fsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="219" column="1" bodyfile="dmcam.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1ae7bc374d9cd1e693d0fb3c501a7aab43" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t dmcam_param_roi_t::max_fsize</definition>
+        <argsstring></argsstring>
+        <name>max_fsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="220" column="1" bodyfile="dmcam.h" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Frame size and Max frame size can be get from paramter interface using the PRAM_INFO_ROI parameter.</para><para><simplesect kind="note"><para>: For PARAM_INFO_ROI, it&apos;s format like follows. (srow,scol)_ _ _ _ _ _ _ _ _ | | | ROI | |_ _ _ _ _ _ _ _ _| (erow,ecol) frame size = (ecol - scol) * (erow - srow) * pixel_width; </para></simplesect>
+</para>    </detaileddescription>
+    <location file="dmcam.h" line="213" column="1" bodyfile="dmcam.h" bodystart="213" bodyend="221"/>
+    <listofallmembers>
+      <member refid="structdmcam__param__roi__t_1a8c44be5c15adbc69a6c0654fa24899c2" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>cur_fsize</name></member>
+      <member refid="structdmcam__param__roi__t_1a8b2ff5df6e7a998e6f4c3167606b0693" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>ecol</name></member>
+      <member refid="structdmcam__param__roi__t_1a25c4365134243d033de095e2932deb5c" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>erow</name></member>
+      <member refid="structdmcam__param__roi__t_1ae7bc374d9cd1e693d0fb3c501a7aab43" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>max_fsize</name></member>
+      <member refid="structdmcam__param__roi__t_1a868c9beea6a8f0e7cd36bac3ee8bac4f" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>scol</name></member>
+      <member refid="structdmcam__param__roi__t_1a295513df3516d7783c992d8b16357277" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>srow</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

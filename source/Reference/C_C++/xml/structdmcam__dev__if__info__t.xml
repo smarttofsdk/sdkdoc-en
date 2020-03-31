@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="structdmcam__dev__if__info__t" kind="struct" language="C++" prot="public">
+    <compoundname>dmcam_dev_if_info_t</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structdmcam__dev__if__info__t_1a70793aaee923a1831c31117654fe7054" prot="public" static="no" mutable="no">
+        <type><ref refid="dmcam_8h_1a89e2a87368200f4f23d20c9703c81e84" kindref="member">dmcam_dev_if_e</ref></type>
+        <definition>dmcam_dev_if_e dmcam_dev_if_info_t::type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="70" column="1" bodyfile="dmcam.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__t_1a7d9daa99d3cfc9b385e93b53d89e11b0" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structdmcam__dev__if__info__usb" kindref="compound">dmcam_dev_if_info_usb</ref></type>
+        <definition>struct dmcam_dev_if_info_usb dmcam_dev_if_info_t::usb</definition>
+        <argsstring></argsstring>
+        <name>usb</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="70" column="1" bodyfile="dmcam.h" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__t_1aed90c97a0b2d468a29f783684f7c2f13" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structdmcam__dev__if__info__eth" kindref="compound">dmcam_dev_if_info_eth</ref></type>
+        <definition>struct dmcam_dev_if_info_eth dmcam_dev_if_info_t::eth</definition>
+        <argsstring></argsstring>
+        <name>eth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="70" column="1" bodyfile="dmcam.h" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__t_1a6fe1a2f73d72804b4f5d1b50beb9db95" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structdmcam__dev__if__info__fil" kindref="compound">dmcam_dev_if_info_fil</ref></type>
+        <definition>struct dmcam_dev_if_info_fil dmcam_dev_if_info_t::fil</definition>
+        <argsstring></argsstring>
+        <name>fil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="70" column="1" bodyfile="dmcam.h" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structdmcam__dev__if__info__t_1a57622e0c747d6d6c82160b7503bf6cd3" prot="public" static="no" mutable="no">
+        <type>union dmcam_dev_if_info_t::@0</type>
+        <definition>union dmcam_dev_if_info_t::@0  dmcam_dev_if_info_t::info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="75" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="62">
+        <label>dmcam_dev_if_info_usb</label>
+        <link refid="structdmcam__dev__if__info__usb"/>
+      </node>
+      <node id="61">
+        <label>dmcam_dev_if_info_t</label>
+        <link refid="structdmcam__dev__if__info__t"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>usb</edgelabel>
+        </childnode>
+        <childnode refid="63" relation="usage">
+          <edgelabel>eth</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>fil</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>dmcam_dev_if_info_eth</label>
+        <link refid="structdmcam__dev__if__info__eth"/>
+      </node>
+      <node id="64">
+        <label>dmcam_dev_if_info_fil</label>
+        <link refid="structdmcam__dev__if__info__fil"/>
+      </node>
+    </collaborationgraph>
+    <location file="dmcam.h" line="69" column="1" bodyfile="dmcam.h" bodystart="69" bodyend="76"/>
+    <listofallmembers>
+      <member refid="structdmcam__dev__if__info__t_1aed90c97a0b2d468a29f783684f7c2f13" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_t</scope><name>eth</name></member>
+      <member refid="structdmcam__dev__if__info__t_1a6fe1a2f73d72804b4f5d1b50beb9db95" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_t</scope><name>fil</name></member>
+      <member refid="structdmcam__dev__if__info__t_1a57622e0c747d6d6c82160b7503bf6cd3" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_t</scope><name>info</name></member>
+      <member refid="structdmcam__dev__if__info__t_1a70793aaee923a1831c31117654fe7054" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_t</scope><name>type</name></member>
+      <member refid="structdmcam__dev__if__info__t_1a7d9daa99d3cfc9b385e93b53d89e11b0" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_t</scope><name>usb</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

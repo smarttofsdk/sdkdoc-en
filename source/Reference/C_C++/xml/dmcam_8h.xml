@@ -1,0 +1,3021 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dmcam_8h" kind="file" language="C++">
+    <compoundname>dmcam.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <incdepgraph>
+      <node id="4">
+        <label>stdint.h</label>
+      </node>
+      <node id="3">
+        <label>dmcam.h</label>
+        <link refid="dmcam.h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dmcam_8h_1a2da0cebc8a0a40a1f8820666bd3f9293" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_init</definition>
+        <argsstring>(const char *log_fname)</argsstring>
+        <name>dmcam_init</name>
+        <param>
+          <type>const char *</type>
+          <declname>log_fname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Init the DM camera layer. It should be called before any dmcam API is invoked.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>log_fname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified log file name of dmcam layer. if NULL, the default log (dmcam_YYYYMMDD.log) is used. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="43" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a5a543493e82d35e30df1ba748013230a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_uninit</definition>
+        <argsstring>(void)</argsstring>
+        <name>dmcam_uninit</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Uninit the DM camera layer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="49" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a05b6e48b5dd97bb458cad5a5edb62eea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_log_cfg</definition>
+        <argsstring>(dmcam_log_level_e console_level, dmcam_log_level_e file_level, dmcam_log_level_e usb_level)</argsstring>
+        <name>dmcam_log_cfg</name>
+        <param>
+          <type>dmcam_log_level_e</type>
+          <declname>console_level</declname>
+        </param>
+        <param>
+          <type>dmcam_log_level_e</type>
+          <declname>file_level</declname>
+        </param>
+        <param>
+          <type>dmcam_log_level_e</type>
+          <declname>usb_level</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set the logging configuration for dmcam layer.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>console_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam_log_level_e, the console log whose log level bellow this value will be suppressed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam_log_level_e, the file log whose log level bellow this value will be suppressed. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>usb_level</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam_log_level_e, the usb log whose log level bellow this value will be suppressed. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="65" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a2c78d1080d320ef6e787bae2384af2c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_path_cfg</definition>
+        <argsstring>(const char *path)</argsstring>
+        <name>dmcam_path_cfg</name>
+        <param>
+          <type>const char *</type>
+          <declname>path</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Setting where to save calibration data</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>path</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>__API void </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="75" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a654c1c0422aec23e1a997f550dbb9400" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API char *</type>
+        <definition>__API char* dmcam_path_get</definition>
+        <argsstring>(void)</argsstring>
+        <name>dmcam_path_get</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Getting calibration data path</para><para><simplesect kind="return"><para>_API char* </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="84" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a180c9c45fb2101aae05fe193c753d303" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API const char *</type>
+        <definition>__API const char* dmcam_error_name</definition>
+        <argsstring>(int error_code)</argsstring>
+        <name>dmcam_error_name</name>
+        <param>
+          <type>int</type>
+          <declname>error_code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>covert specified error code into error string</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>error_code</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>const char* </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="93" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ac4d5545c7bc65bdc755058ad413c7a8b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_dev_list</definition>
+        <argsstring>(dmcam_dev_t *dev_list, int dev_list_num)</argsstring>
+        <name>dmcam_dev_list</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev_list</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dev_list_num</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>list the dmcam device and fill into dmcam_dev_t array.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev_list</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] device list array to be filled. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dev_list_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] capacity of device list</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] number of dmcam device found </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a6067c3f74b982b5ec23154ae0668548b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API dmcam_dev_t *</type>
+        <definition>__API dmcam_dev_t* dmcam_dev_open</definition>
+        <argsstring>(dmcam_dev_t *dev)</argsstring>
+        <name>dmcam_dev_open</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>open specified dmcam device. if the device is not specified, it&apos;ll try to open the first dmcam device</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device which is usally get from dmcam_dev_list. if Null, the first dmcam device will be opened.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>dmcam_dev_t* NULL = open device failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a7d6844603791515f4e730b4474c88726" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API dmcam_dev_t *</type>
+        <definition>__API dmcam_dev_t* dmcam_dev_open_by_fd</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>dmcam_dev_open_by_fd</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>open specified dmcam device with specified fd. this is useful for android usb device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified fd</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>dmcam_dev_t* return opened device. NULL = open device failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="131" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a32e7d87bc7e763568b407f427ca2bc8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API dmcam_dev_t *</type>
+        <definition>__API dmcam_dev_t* dmcam_dev_open_by_uri</definition>
+        <argsstring>(const char *uri_str)</argsstring>
+        <name>dmcam_dev_open_by_uri</name>
+        <param>
+          <type>const char *</type>
+          <declname>uri_str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>open specified dmcam device with specified uri.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>uri_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified URI. Following URI are supported: USB device URI: usb://bus:port or usb://bus:port:dev_addr Ethernet device URI: eth://hwid:token or eth://hwid:token FILE device URI: <ulink url="file://filename">file://filename</ulink> or filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>dmcam_dev_t* NULL = open device failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="148" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1aeb7179f4590456cd81bf16ba25d6df39" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_dev_close</definition>
+        <argsstring>(dmcam_dev_t *dev)</argsstring>
+        <name>dmcam_dev_close</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Close specified dmcam device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="155" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a2ced8df99456f5b9b1b535fa598a2aa9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API const char *</type>
+        <definition>__API const char* dmcam_dev_get_uri</definition>
+        <argsstring>(dmcam_dev_t *dev, char *uri_str, int uri_str_len)</argsstring>
+        <name>dmcam_dev_get_uri</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>uri_str</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>uri_str_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get URI of specified device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified device after dmcam_dev_open </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_str</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] uri string buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>uri_str_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] uri string buffer len</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>const char* [out] uri string. If null, get uri failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="168" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1af3af0a6d5f2cf9aee9368619dbe64cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_dev_reset</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_dev_rst_e target)</argsstring>
+        <name>dmcam_dev_reset</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_dev_rst_e</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Reset specified target on the dev</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] reset taget defined in dmcam_dev_rst_e</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = reset ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="178" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a82a786f655eeb7208e9b80b1c2995537" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_reg_batch_write</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_dev_reg_e target, uint32_t reg_base, const uint32_t *reg_vals, uint16_t reg_vals_len)</argsstring>
+        <name>dmcam_reg_batch_write</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_dev_reg_e</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>reg_base</declname>
+        </param>
+        <param>
+          <type>const uint32_t *</type>
+          <declname>reg_vals</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_vals_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Batch write registers of specified target on the device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified target defined in dmcam_dev_reg_e </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_base</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] base address of the registers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_vals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] register values to be written. All register value is denoted as UINT32 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_vals_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of values in reg_vals</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = write ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="199" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a24e5dddd907558860f255da9af21a71e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_reg_batch_read</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_dev_reg_e target, uint32_t reg_base, uint32_t *reg_vals, uint16_t reg_vals_len)</argsstring>
+        <name>dmcam_reg_batch_read</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_dev_reg_e</type>
+          <declname>target</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>reg_base</declname>
+        </param>
+        <param>
+          <type>uint32_t *</type>
+          <declname>reg_vals</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>reg_vals_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Batch read registers of specified target on the device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>target</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified target defined in dmcam_dev_reg_e </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_base</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] base address of the registers </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_vals</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] register values to be filled. All register value is denoted as UINT32 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reg_vals_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of values in reg_vals</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = read ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="215" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1af1fcead6c932966907bc766a93f9eb21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_param_batch_set</definition>
+        <argsstring>(dmcam_dev_t *dev, const dmcam_param_item_t *param_items, int item_cnt)</argsstring>
+        <name>dmcam_param_batch_set</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>const dmcam_param_item_t *</type>
+          <declname>param_items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>item_cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Batch write generic parameters to specified device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam_param_item_t is used to denotes generic parameter:<itemizedlist>
+<listitem><para>param_id[in]: defined in dmcam_dev_param_e to identify the parameters.</para></listitem><listitem><para>param_vals[in]: denotes the generic value (max = 16bytes)</para></listitem><listitem><para>param_vals_len[in]: denotes the length of value. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>item_cnt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of params in param_items</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = operation is ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="234" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a1b2c722e2275ed52bae71314380b3899" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_param_batch_get</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_param_item_t *param_items, int item_cnt)</argsstring>
+        <name>dmcam_param_batch_get</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_param_item_t *</type>
+          <declname>param_items</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>item_cnt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Batch read generic parameters from specified device.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>param_items</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in/out] dmcam_param_item_t is used to denotes generic parameter:<itemizedlist>
+<listitem><para>param_id[in]: defined in dmcam_dev_param_e to identify the parameters.</para></listitem><listitem><para>param_vals[out]: denotes the generic value (max = 16bytes) filled by this function</para></listitem><listitem><para>param_vals_len[out]: denotes the length of value filled by this function. </para></listitem></itemizedlist>
+</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>item_cnt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of params in param_items</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = operation is ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="251" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1abefa17fc872b2949d852cebca5b711ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_config_set</definition>
+        <argsstring>(dmcam_dev_t *dev, const dmcam_cap_cfg_t *cfg)</argsstring>
+        <name>dmcam_cap_config_set</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>const dmcam_cap_cfg_t *</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Set specified capture configuration for specified device. This api is available from v1.58 to replace <ref refid="dmcam_8h_1ac69f8eaf90f4861d99654af394c7941c" kindref="member">dmcam_cap_set_frame_buffer</ref></para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cfg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified capture configuration</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = set OK. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="269" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a273a49131a2b3371632000cd63ce8cb1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_cap_config_get</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_cap_cfg_t *cfg)</argsstring>
+        <name>dmcam_cap_config_get</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_cap_cfg_t *</type>
+          <declname>cfg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get capture configuration of specified device</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cfg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] capture configuration to be filled </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="277" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ac69f8eaf90f4861d99654af394c7941c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_set_frame_buffer</definition>
+        <argsstring>(dmcam_dev_t *dev, uint8_t *frame_buf, uint32_t frame_buf_size)</argsstring>
+        <name>dmcam_cap_set_frame_buffer</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>frame_buf</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>frame_buf_size</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>set frame buffer during capturing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_buf</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] framebuffer assigned by user. if null, the frame_buf will be alloced internally </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_buf_size</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] frame buffer size, which will be rouned to frame size boundary.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] return true = set ok. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="292" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ae69c5bcd6cbff66b4ea0eb6df4ccc754" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_cap_set_callback_on_frame_ready</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_cap_frdy_f cb)</argsstring>
+        <name>dmcam_cap_set_callback_on_frame_ready</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_cap_frdy_f</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>register frame ready callback function</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] callback function in following format: void (<emphasis>dmcam_cap_frdy_f)(dmcam_dev_t</emphasis>, dmcam_frame_t) </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="303" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a4f41057755b40478a79ace9e0884ef07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_cap_set_callback_on_error</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_cap_err_f cb)</argsstring>
+        <name>dmcam_cap_set_callback_on_error</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_cap_err_f</type>
+          <declname>cb</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>register error callback function. It&apos;s invoked when some error occurs during the capturing process.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>cb</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] callback function in following format: void (<emphasis>dmcam_cap_err_f)(dmcam_dev_t</emphasis>, int errno); </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="313" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a5139b9f6b3d231d07be51292447187f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_snapshot</definition>
+        <argsstring>(dmcam_dev_t *dev, uint8_t *frame_data, uint32_t frame_dlen, dmcam_frame_t *frame)</argsstring>
+        <name>dmcam_cap_snapshot</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>frame_data</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>frame_dlen</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_t *</type>
+          <declname>frame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Take a snapshot and fill frame data into specified frame. If the device is capturing, the snapshot will return the latest image{} or it&apos;ll auto start/snapshot/stop</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] frame data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_dlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] frame buffersize should be large enough to containing one frame. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] frame_t filled during snapshot. it can be null </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool return true = ok </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="328" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1aa4013096ede418789ff9c0a1ac78daec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_is_ongoing</definition>
+        <argsstring>(dmcam_dev_t *dev)</argsstring>
+        <name>dmcam_cap_is_ongoing</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Check whether the device is in capturing state.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = device in capturing state </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="337" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a0c385bdb5dc8efbd78be95ffb30c9540" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_start</definition>
+        <argsstring>(dmcam_dev_t *dev)</argsstring>
+        <name>dmcam_cap_start</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>start device capturing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool return true = ok </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="347" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a80e6d53bf3f4fcc3dfdc5eb4a82dcfd9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_cap_stop</definition>
+        <argsstring>(dmcam_dev_t *dev)</argsstring>
+        <name>dmcam_cap_stop</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>stop device capturing.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool return true = ok </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="357" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a811ac0a66d2b34f30a4b183db938b54b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cap_get_frames</definition>
+        <argsstring>(dmcam_dev_t *dev, uint32_t frame_num, uint8_t *frame_data, uint32_t frame_dlen, dmcam_frame_t *first_frame_info)</argsstring>
+        <name>dmcam_cap_get_frames</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>frame_num</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>frame_data</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>frame_dlen</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_t *</type>
+          <declname>first_frame_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Get specified number of frames into specified user buffer. This function may be blocking wait on the frame stream. if enough frames data are collected or any error happends, it&apos;ll returns. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_num</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] number of frames to be captured. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] frame data filled curing capturing. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_dlen</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] frame_data buffer size in bytes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>first_frame_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] first frame attributes. It can be NULL</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return the number for ready frames collected. On error the errono is returned. (errno &lt; 0) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="376" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a8c337dfdafcb8590494760f1ba7cde28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cap_get_frame</definition>
+        <argsstring>(dmcam_dev_t *dev, uint8_t *frame_data, uint32_t frame_dlen, dmcam_frame_t *frame_info)</argsstring>
+        <name>dmcam_cap_get_frame</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>frame_data</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>frame_dlen</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_t *</type>
+          <declname>frame_info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get one frame into specified buffer. this function is non-blocking, if no frame is ready, it returns 0</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_data</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] frame data to be filled, it can be NULL </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>frame_info</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] frame attributes. It can be NULL</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int return 0 if not frame is ready, else return 1 </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="389" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a868d862c999279ba7ef7d2790dee8ab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_firmware_upgrade</definition>
+        <argsstring>(dmcam_dev_t *dev, uint8_t type, uint16_t version, const char *file_name)</argsstring>
+        <name>dmcam_firmware_upgrade</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Firmware upgrade for different type target.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev[in]:dmcam</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type[in]:firmware</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>type </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>version[in]:firmware</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>version </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>file_name[in]:firmware</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>name</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="401" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a99d2f7ac40d1a684650ad85a7a0df8ba" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_data_download</definition>
+        <argsstring>(dmcam_dev_t *dev, char *name, uint8_t type, uint16_t version, uint32_t addr)</argsstring>
+        <name>dmcam_data_download</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>version</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>addr</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="403" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a20495614434f621b85b7c8d65c2c01b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_data_upload</definition>
+        <argsstring>(dmcam_dev_t *dev, uint8_t type, const char *file_name)</argsstring>
+        <name>dmcam_data_upload</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>file_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="404" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a54957f56460ee8559bb1efacc70413d3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_distance</definition>
+        <argsstring>(dmcam_dev_t *dev, float *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_distance</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>alias for dmcam_frame_get_dist_f32 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="410" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a346644153a5ac4cf57d5bc5eac53561e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_dist_f32</definition>
+        <argsstring>(dmcam_dev_t *dev, float *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_dist_f32</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert to distance data to float32 from raw frame data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] distance buffer. The unit of distance is in meters (float32) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance buffer length in number of float </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data length in byte </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>finfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame information</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return the number for distance points in dst </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="428" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a68cc4e382c76dae085dc4bbc723fe87a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_dist_u16</definition>
+        <argsstring>(dmcam_dev_t *dev, uint16_t *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_dist_u16</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert to distance data in uint16 from raw frame data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] distance buffer. The unit of distance is in millimeter (uint16) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance buffer length in number of uint16 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data length in byte </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>finfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame information</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return the number for distance points in dst </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="447" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ae89f9d8e603024ee896788a596578b2c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_gray</definition>
+        <argsstring>(dmcam_dev_t *dev, float *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_gray</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>alias for dmcam_frame_get_gray_f32 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="451" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a54e1818861a3f69dfa07217c0f528bf5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_gray_f32</definition>
+        <argsstring>(dmcam_dev_t *dev, float *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_gray_f32</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get gray data in float32 from raw frame data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] gray buffer. The gray value denotes the amplitude. (float32 in [0, 2048.0) ) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance buffer length in number of float </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data length in byte </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>finfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame information</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return the number for gray points in dst </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="468" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a4e5e47090b76779dbe6e52fac125fd6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_gray_u16</definition>
+        <argsstring>(dmcam_dev_t *dev, uint16_t *dst, int dst_len, uint8_t *src, int src_len, const dmcam_frame_info_t *finfo)</argsstring>
+        <name>dmcam_frame_get_gray_u16</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>uint8_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>const dmcam_frame_info_t *</type>
+          <declname>finfo</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get gray data in uint16_t from raw frame data.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] gray buffer. The gray value denotes the amplitude. (uint16_t in [0, 2048)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance buffer length in number of uint16_t </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame data length in byte </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>finfo</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw frame information</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return the number for gray points in dst </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="485" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ae281ecad3196d14db12c1585c27ca8a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_get_pcl</definition>
+        <argsstring>(dmcam_dev_t *dev, float *pcl, int pcl_len, const float *dist, int dist_len, int img_w, int img_h, const dmcam_camera_para_t *p_cam_param)</argsstring>
+        <name>dmcam_frame_get_pcl</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pcl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pcl_len</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dist_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_h</declname>
+        </param>
+        <param>
+          <type>const dmcam_camera_para_t *</type>
+          <declname>p_cam_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get point cloud data from distance data. The distance data is usually calcuated using dmcam_frame_get_dist_f32.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] point clound buffer. each 3 element consists a (x,y,z) point, output is in (w,h,3) demension. point in value (0,0,0) is invalid </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pcl_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] point cloud float element count </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image data buffer. The unit of distance is meter (float) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image data count (in sizeof(float)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image width in pixel </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image height in pixel </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p_cam_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] user specified camera lens parameter. if null, the internal camera parameter is used.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return number of points in point cloud buffer. Note: n points means 3*n floats. N should be img_w * img_h </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="511" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a7a716664d7e88db1e4c7ab49d0bd098d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int dmcam_frame_get_pcl_xyzd</definition>
+        <argsstring>(dmcam_dev_t *dev, float *pcl, int pcl_len, const float *dist, int dist_len, int img_w, int img_h, bool pseudo_color, const dmcam_camera_para_t *p_cam_param)</argsstring>
+        <name>dmcam_frame_get_pcl_xyzd</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>pcl</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>pcl_len</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dist_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_h</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>pseudo_color</declname>
+        </param>
+        <param>
+          <type>const dmcam_camera_para_t *</type>
+          <declname>p_cam_param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>get point cloud data from distance data. The distance data is usually calcuated using dmcam_frame_get_distance.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified dmcam device </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pcl</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] point clound buffer. each 4 element consists a (x,y,z,d) point. (x,y,z) is coordinate, d is distance or pseudo-color. output is in (w,h,4) demension. point in value (0,0,0) is invalid </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pcl_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] point cloud float element count </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image data buffer. The unit of distance is meter (float) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image data count (in sizeof(float)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image width in pixel </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance image height in pixel </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>pseudo_color</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] if true, d is pseudo uint32 rgb color value; if false, d is the distance in meter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>p_cam_param</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] user specified camera lens parameter. if null, the internal camera parameter is used.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] return number of points in point cloud buffer. Note: n points means 4*n floats. N should be img_w * img_h </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="541" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1af4e69bd07f4d42391636607f678fc1a6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_filter_enable</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_filter_id_e filter_id, dmcam_filter_args_u *filter_arg, uint32_t reserved)</argsstring>
+        <name>dmcam_filter_enable</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_filter_id_e</type>
+          <declname>filter_id</declname>
+        </param>
+        <param>
+          <type>dmcam_filter_args_u *</type>
+          <declname>filter_arg</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>reserved</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Enable filter controller setting for raw data processing</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in]:defined in dmcam_filter_id_e to identify the filter </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_arg</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] filter control args </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>reserved</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] reserved for future use. User should set to 0 </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int 0 = OK, otherwise failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="555" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a92c3de7fae72fab76ee2bb297195da94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_filter_disable</definition>
+        <argsstring>(dmcam_dev_t *dev, dmcam_filter_id_e filter_id)</argsstring>
+        <name>dmcam_filter_disable</name>
+        <param>
+          <type>dmcam_dev_t *</type>
+          <declname>dev</declname>
+        </param>
+        <param>
+          <type>dmcam_filter_id_e</type>
+          <declname>filter_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Disable filter controller setting for raw data processing</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dev</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dmcam device handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>filter_id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] defined in dmcam_filter_id_e to identify the filter</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int 0 = OK, otherwise failed. </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="566" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ab876246c9a1587390a48d294bb469d8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cmap_dist_f32_to_RGB</definition>
+        <argsstring>(uint8_t *dst, int dst_len, const float *src, int src_len, dmcam_cmap_outfmt_e outfmt, float range_min_m, float range_max_m)</argsstring>
+        <name>dmcam_cmap_dist_f32_to_RGB</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>dmcam_cmap_outfmt_e</type>
+          <declname>outfmt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_min_m</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_max_m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert dist_f32 image (pixel in meter) to pesudo-RGB points with specified pixel format</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] pseudo-RGB point buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] point buffer size in bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] float points buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of float points </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outfmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] pixel format of the pseudo-RGB </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] minimum range of source point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] max range of source point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] the count of pseudo RGB points </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="586" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ab8a53924fb0da4aad75c5a8b0d366403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cmap_float</definition>
+        <argsstring>(uint8_t *dst, int dst_len, const float *src, int src_len, dmcam_cmap_outfmt_e outfmt, float range_min_m, float range_max_m)</argsstring>
+        <name>dmcam_cmap_float</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>dmcam_cmap_outfmt_e</type>
+          <declname>outfmt</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_min_m</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>range_max_m</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="589" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a7b8281c7cbfc8776819cfb9797642152" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cmap_dist_u16_to_RGB</definition>
+        <argsstring>(uint8_t *dst, int dst_len, const uint16_t *src, int src_len, dmcam_cmap_outfmt_e outfmt, uint16_t range_min_mm, uint16_t range_max_mm)</argsstring>
+        <name>dmcam_cmap_dist_u16_to_RGB</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>const uint16_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>dmcam_cmap_outfmt_e</type>
+          <declname>outfmt</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>range_min_mm</declname>
+        </param>
+        <param>
+          <type>uint16_t</type>
+          <declname>range_max_mm</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert dist_u16 image (pixel in milimeter) to pesudo-RGB points with specified pixel format</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] pseudo-RGB point buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] point buffer size in bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist_u16 image buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of u16 points </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>outfmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] pixel format of the pseudo-RGB </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>min_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] minimum range of source point </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>max_val</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] max range of source point</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] the count of pseudo RGB points </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="605" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1abb9124f6185ce7f90601d6b10e422c6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cmap_gray_u16_to_IR</definition>
+        <argsstring>(uint8_t *dst, int dst_len, const uint16_t *src, int src_len, int balance)</argsstring>
+        <name>dmcam_cmap_gray_u16_to_IR</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>const uint16_t *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>balance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert gray_u16 image to IR image whose pixel is in [0~255]</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] IR image buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] IR image buffer size in bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] gray_u16 image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of u16 points in gray_u16 image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>balance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] [-1024, 1024] -&gt; [darkest, brightest]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] the count of IR image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="617" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a3ec694a1eb75a9f9e5b3798e8536b0cf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_cmap_gray_f32_to_IR</definition>
+        <argsstring>(uint8_t *dst, int dst_len, const float *src, int src_len, int balance)</argsstring>
+        <name>dmcam_cmap_gray_f32_to_IR</name>
+        <param>
+          <type>uint8_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>balance</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>convert gray_f32 image to IR image whose pixel is in [0~255]</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] IR image buffer </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] IR image buffer size in bytes </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] gray_f32 image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] count of f32 points in gray_f32 image </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>balance</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] [-1024, 1024] -&gt; [darkest, brightest]</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] the count of IR image </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="630" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a52af3dac8b1a8e747b059273213a5867" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_file_open</definition>
+        <argsstring>(const char *fname, const char *mode)</argsstring>
+        <name>dmcam_file_open</name>
+        <param>
+          <type>const char *</type>
+          <declname>fname</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>open specified file and get file descriptor for dmcam_frame_save_xxx apis.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fname</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified filename</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] file descriptor. &lt; 0 = failed </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="644" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1aef2202f98d8b1ac89eb98af1846db33f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API void</type>
+        <definition>__API void dmcam_file_close</definition>
+        <argsstring>(int fd)</argsstring>
+        <name>dmcam_file_close</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>close specified file descriptor</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified file descriptor </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="652" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1aff82fc89c379d1bf8393090b4b943d1e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_frame_save_raw</definition>
+        <argsstring>(int fd, dmcam_frame_save_fmt_t save_fmt, const uint16_t *raw, int raw_len, int img_w, int img_h, int dcs_cnt, const char *raw_tag)</argsstring>
+        <name>dmcam_frame_save_raw</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_save_fmt_t</type>
+          <declname>save_fmt</declname>
+        </param>
+        <param>
+          <type>const uint16_t *</type>
+          <declname>raw</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>raw_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_h</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dcs_cnt</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>raw_tag</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save specified raw data (in uin16_t) with specified pixcel width and height to file with specified saving format.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified file handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>save_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] file saving format defined in dmcam_frame_save_fmt_t. only followin format is supported: DMCAM_FRAME_SAVE_UINT32 DMCAM_FRAME_SAVE_UINT16 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>raw</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw data </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>raw_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] number of raw data (in count of uint16_t) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel height </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dcs_cnt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data dcs sub-frame count </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>raw_tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] any string. if want to used by replay, specify (dmcam_t*)dev-&gt;product string here. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = save raw frame ok, false = fail </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="676" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a31f1ee35a77a88c86bf2a780f096e845" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_frame_save_distance</definition>
+        <argsstring>(int fd, dmcam_frame_save_fmt_t save_fmt, const float *dist, int dist_len, int img_w, int img_h)</argsstring>
+        <name>dmcam_frame_save_distance</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_save_fmt_t</type>
+          <declname>save_fmt</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>dist</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dist_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save specified distance data (in float32, unit: meter) with specified pixcel width and height to file with specified saving format.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified file handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>save_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] file saving format defined in @ dmcam_frame_save_fmt_t. only followin format is supported: DMCAM_FRAME_SAVE_FLOAT32 DMCAM_FRAME_SAVE_UINT32 DMCAM_FRAME_SAVE_UINT16 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] distance data (in float32, unit: meter) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dist_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] number of distance data (in count of float) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel height</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = save distance frame ok, false = fail </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="700" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a59082df4571e66a4cf25b6b7db083b5a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API bool</type>
+        <definition>__API bool dmcam_frame_save_gray</definition>
+        <argsstring>(int fd, dmcam_frame_save_fmt_t save_fmt, const float *src, int src_len, int img_w, int img_h)</argsstring>
+        <name>dmcam_frame_save_gray</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>dmcam_frame_save_fmt_t</type>
+          <declname>save_fmt</declname>
+        </param>
+        <param>
+          <type>const float *</type>
+          <declname>src</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>src_len</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_w</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>img_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>save specified gray data (in float32) with specified pixcel width and height to file with specified saving format.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified file handler </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>save_fmt</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] file saving format defined in dmcam_frame_save_fmt_t. only followin format is supported: DMCAM_FRAME_SAVE_UINT16 DMCAM_FRAME_SAVE_UINT8 </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] gray data (in float32) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>src_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] number of distance data (in count of float) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>img_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dist data pixel height</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>bool [out] true = save distance frame ok, false = fail </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="722" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1af2a30ecbdd0c88172ae0a7362e953ff9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_load_raw</definition>
+        <argsstring>(int fd, uint16_t *dst, int dst_len, int *dst_w, int *dst_h, int *dst_dcsn, char *dst_tag, int dst_tag_len)</argsstring>
+        <name>dmcam_frame_load_raw</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>uint16_t *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_w</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_h</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_dcsn</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>dst_tag</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_tag_len</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>load one raw frame from specified file fd.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified data file fd. The fd related file is always saved by <ref refid="dmcam_8h_1aff82fc89c379d1bf8393090b4b943d1e" kindref="member">dmcam_frame_save_raw</ref> api </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] raw </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dst buffer length (in count of sizeof(uint16_t)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] raw frame pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] raw frame pixel height </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_dcsn</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] raw dcs cnt per frame </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] raw data tag string </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>tag_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] raw data tag buffer size</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] length of loaded raw data (in count of sizeof(uint16)) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="741" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1ac55425eb0921e7806f60301d235e43a4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_load_distance</definition>
+        <argsstring>(int fd, float *dst, int dst_len, int *dst_w, int *dst_h)</argsstring>
+        <name>dmcam_frame_load_distance</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_w</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>load one distance frame from specified file fd.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified data file fd. The fd related file is always saved by <ref refid="dmcam_8h_1a31f1ee35a77a88c86bf2a780f096e845" kindref="member">dmcam_frame_save_distance</ref> api </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] distance in float (unit: meter) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dst buffer length (in count of sizeof(float)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] distance frame pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] distance frame pixel height</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] length of loaded distance data (in count of sizeof(float)) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="759" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="dmcam_8h_1a5034b34a837652b3672a71a63701aca2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>__API int</type>
+        <definition>__API int dmcam_frame_load_gray</definition>
+        <argsstring>(int fd, float *dst, int dst_len, int *dst_w, int *dst_h)</argsstring>
+        <name>dmcam_frame_load_gray</name>
+        <param>
+          <type>int</type>
+          <declname>fd</declname>
+        </param>
+        <param>
+          <type>float *</type>
+          <declname>dst</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dst_len</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_w</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>dst_h</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>load one gray frame from specified file fd.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>fd</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] specified data file fd. The fd related file is always saved by <ref refid="dmcam_8h_1a59082df4571e66a4cf25b6b7db083b5a" kindref="member">dmcam_frame_save_gray</ref> api </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] gray in float (unit: meter) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_len</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[in] dst buffer length (in count of sizeof(float)) </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_w</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] gray frame pixel width </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dst_h</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>[out] gray frame pixel height</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int [out] length of loaded gray data (in count of sizeof(float)) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="dmcam.h" line="777" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>DM&apos;s camera device API. </para>    </briefdescription>
+    <detaileddescription>
+<para>Detail Decsription starts here </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*****************************************************************/</highlight></codeline>
+<codeline lineno="21"><highlight class="preprocessor">#ifndef<sp/>DMCAM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>DMCAM_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*<sp/>lib<sp/>init/uninit/cfg<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="32"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight></codeline>
+<codeline lineno="43"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a2da0cebc8a0a40a1f8820666bd3f9293" kindref="member">dmcam_init</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*log_fname);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a5a543493e82d35e30df1ba748013230a" kindref="member">dmcam_uninit</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a05b6e48b5dd97bb458cad5a5edb62eea" kindref="member">dmcam_log_cfg</ref>(dmcam_log_level_e<sp/>console_level,<sp/>dmcam_log_level_e<sp/>file_level,<sp/>dmcam_log_level_e<sp/>usb_level);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a2c78d1080d320ef6e787bae2384af2c7" kindref="member">dmcam_path_cfg</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*path);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="dmcam_8h_1a654c1c0422aec23e1a997f550dbb9400" kindref="member">dmcam_path_get</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93"><highlight class="normal">__API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="dmcam_8h_1a180c9c45fb2101aae05fe193c753d303" kindref="member">dmcam_error_name</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>error_code);</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight></codeline>
+<codeline lineno="96"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="97"><highlight class="comment"><sp/>*<sp/>device<sp/>enumberation/open/close<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="98"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight></codeline>
+<codeline lineno="108"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ac4d5545c7bc65bdc755058ad413c7a8b" kindref="member">dmcam_dev_list</ref>(dmcam_dev_t<sp/>*dev_list,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dev_list_num);</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight></codeline>
+<codeline lineno="120"><highlight class="normal">__API<sp/>dmcam_dev_t*<sp/><ref refid="dmcam_8h_1a6067c3f74b982b5ec23154ae0668548b" kindref="member">dmcam_dev_open</ref>(dmcam_dev_t<sp/>*dev);</highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal">__API<sp/>dmcam_dev_t*<sp/><ref refid="dmcam_8h_1a7d6844603791515f4e730b4474c88726" kindref="member">dmcam_dev_open_by_fd</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="132"><highlight class="normal"></highlight></codeline>
+<codeline lineno="148"><highlight class="normal">__API<sp/>dmcam_dev_t*<sp/><ref refid="dmcam_8h_1a32e7d87bc7e763568b407f427ca2bc8d" kindref="member">dmcam_dev_open_by_uri</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*uri_str);</highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1aeb7179f4590456cd81bf16ba25d6df39" kindref="member">dmcam_dev_close</ref>(dmcam_dev_t<sp/>*dev);</highlight></codeline>
+<codeline lineno="156"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal">__API<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal">*<sp/><ref refid="dmcam_8h_1a2ced8df99456f5b9b1b535fa598a2aa9" kindref="member">dmcam_dev_get_uri</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*uri_str,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>uri_str_len);</highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="178"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1af3af0a6d5f2cf9aee9368619dbe64cea" kindref="member">dmcam_dev_reset</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_dev_rst_e<sp/>target);</highlight></codeline>
+<codeline lineno="179"><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="182"><highlight class="comment"><sp/>*<sp/>register/parameters<sp/>RW<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="183"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="199"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a82a786f655eeb7208e9b80b1c2995537" kindref="member">dmcam_reg_batch_write</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_dev_reg_e<sp/>target,<sp/>uint32_t<sp/>reg_base,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>uint32_t<sp/>*reg_vals,<sp/>uint16_t<sp/>reg_vals_len);</highlight></codeline>
+<codeline lineno="200"><highlight class="normal"></highlight></codeline>
+<codeline lineno="215"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a24e5dddd907558860f255da9af21a71e" kindref="member">dmcam_reg_batch_read</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_dev_reg_e<sp/>target,<sp/>uint32_t<sp/>reg_base,<sp/>uint32_t<sp/>*reg_vals,<sp/>uint16_t<sp/>reg_vals_len);</highlight></codeline>
+<codeline lineno="216"><highlight class="normal"></highlight></codeline>
+<codeline lineno="234"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1af1fcead6c932966907bc766a93f9eb21" kindref="member">dmcam_param_batch_set</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dmcam_param_item_t<sp/>*param_items,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>item_cnt);</highlight></codeline>
+<codeline lineno="251"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a1b2c722e2275ed52bae71314380b3899" kindref="member">dmcam_param_batch_get</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_param_item_t<sp/>*param_items,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>item_cnt);</highlight></codeline>
+<codeline lineno="252"><highlight class="normal"></highlight></codeline>
+<codeline lineno="253"><highlight class="normal"></highlight></codeline>
+<codeline lineno="254"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="255"><highlight class="comment"><sp/>*<sp/>capture<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="256"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="257"><highlight class="normal"></highlight></codeline>
+<codeline lineno="269"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1abefa17fc872b2949d852cebca5b711ee" kindref="member">dmcam_cap_config_set</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>dmcam_cap_cfg_t<sp/>*cfg);</highlight></codeline>
+<codeline lineno="270"><highlight class="normal"></highlight></codeline>
+<codeline lineno="277"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a273a49131a2b3371632000cd63ce8cb1" kindref="member">dmcam_cap_config_get</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_cap_cfg_t<sp/>*cfg);</highlight></codeline>
+<codeline lineno="278"><highlight class="normal"></highlight></codeline>
+<codeline lineno="291"><highlight class="normal">API_DEPRECATED_FOR(<ref refid="dmcam_8h_1abefa17fc872b2949d852cebca5b711ee" kindref="member">dmcam_cap_config_set</ref>)</highlight></codeline>
+<codeline lineno="292"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ac69f8eaf90f4861d99654af394c7941c" kindref="member">dmcam_cap_set_frame_buffer</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint8_t<sp/>*frame_buf,<sp/>uint32_t<sp/>frame_buf_size);</highlight></codeline>
+<codeline lineno="293"><highlight class="normal"></highlight></codeline>
+<codeline lineno="294"><highlight class="normal"></highlight></codeline>
+<codeline lineno="303"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ae69c5bcd6cbff66b4ea0eb6df4ccc754" kindref="member">dmcam_cap_set_callback_on_frame_ready</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_cap_frdy_f<sp/>cb);</highlight></codeline>
+<codeline lineno="304"><highlight class="normal"></highlight></codeline>
+<codeline lineno="313"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a4f41057755b40478a79ace9e0884ef07" kindref="member">dmcam_cap_set_callback_on_error</ref>(dmcam_dev_t<sp/>*dev,<sp/>dmcam_cap_err_f<sp/>cb);</highlight></codeline>
+<codeline lineno="314"><highlight class="normal"></highlight></codeline>
+<codeline lineno="328"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a5139b9f6b3d231d07be51292447187f5" kindref="member">dmcam_cap_snapshot</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint8_t<sp/>*frame_data,<sp/>uint32_t<sp/>frame_dlen,<sp/>dmcam_frame_t<sp/>*frame);</highlight></codeline>
+<codeline lineno="329"><highlight class="normal"></highlight></codeline>
+<codeline lineno="337"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1aa4013096ede418789ff9c0a1ac78daec" kindref="member">dmcam_cap_is_ongoing</ref>(dmcam_dev_t<sp/>*dev);</highlight></codeline>
+<codeline lineno="338"><highlight class="normal"></highlight></codeline>
+<codeline lineno="347"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a0c385bdb5dc8efbd78be95ffb30c9540" kindref="member">dmcam_cap_start</ref>(dmcam_dev_t<sp/>*dev);</highlight></codeline>
+<codeline lineno="348"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a80e6d53bf3f4fcc3dfdc5eb4a82dcfd9" kindref="member">dmcam_cap_stop</ref>(dmcam_dev_t<sp/>*dev);</highlight></codeline>
+<codeline lineno="358"><highlight class="normal"></highlight></codeline>
+<codeline lineno="376"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a811ac0a66d2b34f30a4b183db938b54b" kindref="member">dmcam_cap_get_frames</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint32_t<sp/>frame_num,<sp/>uint8_t<sp/>*frame_data,<sp/>uint32_t<sp/>frame_dlen,<sp/>dmcam_frame_t<sp/>*first_frame_info);</highlight></codeline>
+<codeline lineno="377"><highlight class="normal"></highlight></codeline>
+<codeline lineno="389"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a8c337dfdafcb8590494760f1ba7cde28" kindref="member">dmcam_cap_get_frame</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint8_t<sp/>*frame_data,<sp/>uint32_t<sp/>frame_dlen,<sp/>dmcam_frame_t<sp/>*frame_info);</highlight></codeline>
+<codeline lineno="390"><highlight class="normal"></highlight></codeline>
+<codeline lineno="401"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a868d862c999279ba7ef7d2790dee8ab1" kindref="member">dmcam_firmware_upgrade</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint8_t<sp/>type,<sp/>uint16_t<sp/>version,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_name);</highlight></codeline>
+<codeline lineno="402"><highlight class="normal"></highlight></codeline>
+<codeline lineno="403"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dmcam_data_download(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*name,<sp/>uint8_t<sp/>type,<sp/>uint16_t<sp/>version,<sp/>uint32_t<sp/>addr);</highlight></codeline>
+<codeline lineno="404"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dmcam_data_upload(dmcam_dev_t<sp/>*dev,<sp/>uint8_t<sp/>type,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*file_name);</highlight></codeline>
+<codeline lineno="405"><highlight class="normal"></highlight></codeline>
+<codeline lineno="406"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="407"><highlight class="comment"><sp/>*<sp/>frame<sp/>data<sp/>get<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="408"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight></codeline>
+<codeline lineno="410"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a54957f56460ee8559bb1efacc70413d3" kindref="member">dmcam_frame_get_distance</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="411"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="412"><highlight class="normal"></highlight></codeline>
+<codeline lineno="428"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a346644153a5ac4cf57d5bc5eac53561e" kindref="member">dmcam_frame_get_dist_f32</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="429"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="430"><highlight class="normal"></highlight></codeline>
+<codeline lineno="447"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a68cc4e382c76dae085dc4bbc723fe87a" kindref="member">dmcam_frame_get_dist_u16</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint16_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="448"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="449"><highlight class="normal"></highlight></codeline>
+<codeline lineno="451"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ae89f9d8e603024ee896788a596578b2c" kindref="member">dmcam_frame_get_gray</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="452"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="468"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a54e1818861a3f69dfa07217c0f528bf5" kindref="member">dmcam_frame_get_gray_f32</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="469"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="470"><highlight class="normal"></highlight></codeline>
+<codeline lineno="485"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a4e5e47090b76779dbe6e52fac125fd6f" kindref="member">dmcam_frame_get_gray_u16</ref>(dmcam_dev_t<sp/>*dev,<sp/>uint16_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,</highlight></codeline>
+<codeline lineno="486"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>uint8_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>const<sp/>dmcam_frame_info_t<sp/>*finfo);</highlight></codeline>
+<codeline lineno="487"><highlight class="normal"></highlight></codeline>
+<codeline lineno="511"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ae281ecad3196d14db12c1585c27ca8a5" kindref="member">dmcam_frame_get_pcl</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pcl,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pcl_len,</highlight></codeline>
+<codeline lineno="512"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dist,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dist_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_h,<sp/>const<sp/>dmcam_camera_para_t<sp/>*p_cam_param);</highlight></codeline>
+<codeline lineno="513"><highlight class="normal"></highlight></codeline>
+<codeline lineno="541"><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a7a716664d7e88db1e4c7ab49d0bd098d" kindref="member">dmcam_frame_get_pcl_xyzd</ref>(dmcam_dev_t<sp/>*dev,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*pcl,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>pcl_len,</highlight></codeline>
+<codeline lineno="542"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dist,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dist_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_h,<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/>pseudo_color,<sp/>const<sp/>dmcam_camera_para_t<sp/>*p_cam_param);</highlight></codeline>
+<codeline lineno="543"><highlight class="normal"></highlight></codeline>
+<codeline lineno="555"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1af4e69bd07f4d42391636607f678fc1a6" kindref="member">dmcam_filter_enable</ref>(dmcam_dev_t<sp/>*dev,<sp/><sp/>dmcam_filter_id_e<sp/>filter_id,<sp/>dmcam_filter_args_u<sp/>*filter_arg,<sp/>uint32_t<sp/>reserved);</highlight></codeline>
+<codeline lineno="556"><highlight class="normal"></highlight></codeline>
+<codeline lineno="566"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a92c3de7fae72fab76ee2bb297195da94" kindref="member">dmcam_filter_disable</ref>(dmcam_dev_t<sp/>*dev,<sp/><sp/>dmcam_filter_id_e<sp/>filter_id);</highlight></codeline>
+<codeline lineno="567"><highlight class="normal"></highlight></codeline>
+<codeline lineno="568"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="569"><highlight class="comment"><sp/>*<sp/>CMAP<sp/>utils<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="570"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="571"><highlight class="normal"></highlight></codeline>
+<codeline lineno="586"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ab876246c9a1587390a48d294bb469d8d" kindref="member">dmcam_cmap_dist_f32_to_RGB</ref>(uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>dmcam_cmap_outfmt_e<sp/>outfmt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range_min_m,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range_max_m);</highlight></codeline>
+<codeline lineno="587"><highlight class="normal"></highlight></codeline>
+<codeline lineno="588"><highlight class="normal">API_DEPRECATED_FOR(<ref refid="dmcam_8h_1ab876246c9a1587390a48d294bb469d8d" kindref="member">dmcam_cmap_dist_f32_to_RGB</ref>)</highlight></codeline>
+<codeline lineno="589"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dmcam_cmap_float(uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>dmcam_cmap_outfmt_e<sp/>outfmt,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range_min_m,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>range_max_m);</highlight></codeline>
+<codeline lineno="590"><highlight class="normal"></highlight></codeline>
+<codeline lineno="605"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a7b8281c7cbfc8776819cfb9797642152" kindref="member">dmcam_cmap_dist_u16_to_RGB</ref>(uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/>const<sp/>uint16_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/>dmcam_cmap_outfmt_e<sp/>outfmt,<sp/>uint16_t<sp/>range_min_mm,<sp/>uint16_t<sp/>range_max_mm);</highlight></codeline>
+<codeline lineno="617"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1abb9124f6185ce7f90601d6b10e422c6f" kindref="member">dmcam_cmap_gray_u16_to_IR</ref>(uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/>const<sp/>uint16_t<sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>balance);</highlight></codeline>
+<codeline lineno="618"><highlight class="normal"></highlight></codeline>
+<codeline lineno="630"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a3ec694a1eb75a9f9e5b3798e8536b0cf" kindref="member">dmcam_cmap_gray_f32_to_IR</ref>(uint8_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>balance);</highlight></codeline>
+<codeline lineno="631"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------*</highlight></codeline>
+<codeline lineno="632"><highlight class="comment"><sp/>*<sp/>File<sp/>save/load<sp/>API<sp/>section<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="633"><highlight class="comment"><sp/>*---------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="634"><highlight class="normal"></highlight></codeline>
+<codeline lineno="644"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a52af3dac8b1a8e747b059273213a5867" kindref="member">dmcam_file_open</ref>(const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*fname,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*mode);</highlight></codeline>
+<codeline lineno="645"><highlight class="normal"></highlight></codeline>
+<codeline lineno="646"><highlight class="normal"></highlight></codeline>
+<codeline lineno="652"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1aef2202f98d8b1ac89eb98af1846db33f" kindref="member">dmcam_file_close</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd);</highlight></codeline>
+<codeline lineno="653"><highlight class="normal"></highlight></codeline>
+<codeline lineno="654"><highlight class="normal"></highlight></codeline>
+<codeline lineno="676"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1aff82fc89c379d1bf8393090b4b943d1e" kindref="member">dmcam_frame_save_raw</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/>dmcam_frame_save_fmt_t<sp/>save_fmt,<sp/>const<sp/>uint16_t<sp/>*raw,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>raw_len,</highlight></codeline>
+<codeline lineno="677"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_h,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dcs_cnt,<sp/>const<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*raw_tag);</highlight></codeline>
+<codeline lineno="678"><highlight class="normal"></highlight></codeline>
+<codeline lineno="700"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a31f1ee35a77a88c86bf2a780f096e845" kindref="member">dmcam_frame_save_distance</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/>dmcam_frame_save_fmt_t<sp/>save_fmt,<sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dist,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dist_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_h);</highlight></codeline>
+<codeline lineno="701"><highlight class="normal"></highlight></codeline>
+<codeline lineno="702"><highlight class="normal"></highlight></codeline>
+<codeline lineno="722"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a59082df4571e66a4cf25b6b7db083b5a" kindref="member">dmcam_frame_save_gray</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/>dmcam_frame_save_fmt_t<sp/>save_fmt,<sp/>const<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*src,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>src_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>img_h);</highlight></codeline>
+<codeline lineno="723"><highlight class="normal"></highlight></codeline>
+<codeline lineno="741"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1af2a30ecbdd0c88172ae0a7362e953ff9" kindref="member">dmcam_frame_load_raw</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/>uint16_t<sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_h,</highlight></codeline>
+<codeline lineno="742"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_dcsn,<sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*dst_tag,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_tag_len);</highlight></codeline>
+<codeline lineno="743"><highlight class="normal"></highlight></codeline>
+<codeline lineno="759"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1ac55425eb0921e7806f60301d235e43a4" kindref="member">dmcam_frame_load_distance</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_h);</highlight></codeline>
+<codeline lineno="760"><highlight class="normal"></highlight></codeline>
+<codeline lineno="761"><highlight class="normal"></highlight></codeline>
+<codeline lineno="777"><highlight class="normal">__API<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="dmcam_8h_1a5034b34a837652b3672a71a63701aca2" kindref="member">dmcam_frame_load_gray</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>fd,<sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>*dst,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>dst_len,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_w,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*dst_h);</highlight></codeline>
+<codeline lineno="778"><highlight class="normal"></highlight></codeline>
+<codeline lineno="779"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="780"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="781"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="782"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/>//DMCAM_H</highlight></codeline>
+    </programlisting>
+    <location file="dmcam.h"/>
+  </compounddef>
+</doxygen>

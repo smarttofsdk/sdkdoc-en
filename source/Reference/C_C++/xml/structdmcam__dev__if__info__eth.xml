@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="structdmcam__dev__if__info__eth" kind="struct" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__dev__if__info__eth" kind="struct" prot="public">
     <compoundname>dmcam_dev_if_info_eth</compoundname>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structdmcam__dev__if__info__eth_1a501e1f8efd60f9263c149b7214614e5d" prot="public" static="no" mutable="no">
@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="58" column="1" bodyfile="dmcam.h" bodystart="58" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="90" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="90" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__dev__if__info__eth_1a37ea1354353df85502e288ce828136b9" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="59" column="1" bodyfile="dmcam.h" bodystart="59" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="91" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__dev__if__info__eth_1a2ad4016dab60410ee612b59adabb35e8" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="60" column="1" bodyfile="dmcam.h" bodystart="60" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="92" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="92" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__dev__if__info__eth_1ad3833009c048f42475f44a30eef195c0" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -53,14 +53,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="61" column="1" bodyfile="dmcam.h" bodystart="61" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="93" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="93" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="dmcam.h" line="57" column="1" bodyfile="dmcam.h" bodystart="57" bodyend="62"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="89" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="89" bodyend="94"/>
     <listofallmembers>
       <member refid="structdmcam__dev__if__info__eth_1a501e1f8efd60f9263c149b7214614e5d" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_eth</scope><name>addr</name></member>
       <member refid="structdmcam__dev__if__info__eth_1ad3833009c048f42475f44a30eef195c0" prot="public" virt="non-virtual"><scope>dmcam_dev_if_info_eth</scope><name>cid</name></member>

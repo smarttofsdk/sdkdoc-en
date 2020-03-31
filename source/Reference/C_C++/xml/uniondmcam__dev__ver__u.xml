@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="uniondmcam__dev__ver__u" kind="union" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="uniondmcam__dev__ver__u" kind="union" prot="public">
     <compoundname>dmcam_dev_ver_u</compoundname>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1adc9d097e58dfeacff58c77b085046df6" prot="public" static="no" mutable="no">
@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="79" column="1" bodyfile="dmcam.h" bodystart="79" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="111" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="111" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1aaf26faf1490e89bcacf74434cd5ac288" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -27,7 +27,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="81" column="1" bodyfile="dmcam.h" bodystart="81" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="113" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="113" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1a567ff17c15c124b5572042793404b8ba" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -40,7 +40,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="82" column="1" bodyfile="dmcam.h" bodystart="82" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="114" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="114" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1a4d3e8fe2c6e93f24bfe15c1cdb85e7ea" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -53,7 +53,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="83" column="1" bodyfile="dmcam.h" bodystart="83" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="115" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="115" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1a334a774a01e54e93a13477de480554b0" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -66,7 +66,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="84" column="1" bodyfile="dmcam.h" bodystart="84" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="116" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="116" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="uniondmcam__dev__ver__u_1a6eb97cedae675ad024f720c76fcfcefe" prot="public" static="no" mutable="no">
         <type>struct dmcam_dev_ver_u::@1</type>
@@ -79,14 +79,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="85" column="1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="117" column="1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="dmcam.h" line="78" column="1" bodyfile="dmcam.h" bodystart="78" bodyend="86"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="110" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="110" bodyend="118"/>
     <listofallmembers>
       <member refid="uniondmcam__dev__ver__u_1a334a774a01e54e93a13477de480554b0" prot="public" virt="non-virtual"><scope>dmcam_dev_ver_u</scope><name>hw2_ver</name></member>
       <member refid="uniondmcam__dev__ver__u_1aaf26faf1490e89bcacf74434cd5ac288" prot="public" virt="non-virtual"><scope>dmcam_dev_ver_u</scope><name>hw_ver</name></member>

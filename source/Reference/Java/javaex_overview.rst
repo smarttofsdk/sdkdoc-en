@@ -104,24 +104,21 @@ The module API in Java corresponds to the API defined in ** dmcam.h ** in the C 
   `dmcam.param_batch_set()`
    Setting parameters in Java is a bit more complicated than C, and you need to construct a param_item_t instance. The specific usage example is as follows::
 
-   .. code-block :: Java
+   .. code-block:: Java
 
       int pwr_percent = 100;
       param_item_t wparam = new param_item_t();
       dmcamParamArray wparams = new dmcamParamArray(1);
-   
       wparam.setParam_id(dev_param_e.PARAM_ILLUM_POWER);
       wparam.getParam_val().getIllum_power().setPercent((short) pwr_percent);
       wparams.setitem(0, wparam);
       if (!dmcam.param_batch_set(dev, wparams.cast(), 1)) {
-    
-        System.out.printf(" set illu_power to %d %% failed\n", pwr_percent);
-    }
+	    System.out.printf(" set illu_power to %d %% failed\n", pwr_percent);}
 
   `dmcam.param_batch_get(dev, list)`
     Setting parameters in Java is a bit more complicated than C, and you need to construct a param_item_t instance. The specific usage example is as follows::
 
-    .. code-block :: Java
+    .. code-block:: Java
 
             param_item_t r_fps = new param_item_t();
             r_fps.setParam_id(dev_param_e.PARAM_FRAME_RATE);
@@ -134,9 +131,8 @@ The module API in Java corresponds to the API defined in ** dmcam.h ** in the C 
 
             if (dmcam.param_batch_get(dev, rparams.cast(), 2)) {
                 System.out.printf("fps = %d, intg = %d", 
-                    (int)rparams.getitem(0).getParam_val().getFrame_rate().getFps(),
-                    (int)rparams.getitem(1).getParam_val().getIntg().getIntg_us());
-    }
+                (int)rparams.getitem(0).getParam_val().getFrame_rate().getFps(),
+                (int)rparams.getitem(1).getParam_val().getIntg().getIntg_us());}
 
   `dmcam.set_callback_on_frame_ready and dmcam.set_callback_on_error`
    Java extensions do not support callback functions. When capturing, you can refer to the following settings:：

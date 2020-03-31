@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="structdmcam__param__roi__t" kind="struct" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__param__roi__t" kind="struct" prot="public">
     <compoundname>dmcam_param_roi_t</compoundname>
     <includes refid="dmcam_8h" local="no">dmcam.h</includes>
       <sectiondef kind="public-attrib">
@@ -12,10 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>start address for row,multiple of 16 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="214" column="1" bodyfile="dmcam.h" bodystart="214" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="292" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="292" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__roi__t_1a25c4365134243d033de095e2932deb5c" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -25,10 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>end address for row,multiple of 16 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="215" column="1" bodyfile="dmcam.h" bodystart="215" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="293" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="293" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__roi__t_1a868c9beea6a8f0e7cd36bac3ee8bac4f" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -38,10 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>start address for columon,multiple of 16 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="216" column="1" bodyfile="dmcam.h" bodystart="216" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="294" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="294" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__roi__t_1a8b2ff5df6e7a998e6f4c3167606b0693" prot="public" static="no" mutable="no">
         <type>uint16_t</type>
@@ -51,23 +51,23 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>end address for columon,multiple of 16 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="217" column="1" bodyfile="dmcam.h" bodystart="217" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="295" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="295" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structdmcam__param__roi__t_1a8c44be5c15adbc69a6c0654fa24899c2" prot="public" static="no" mutable="no">
-        <type>uint32_t</type>
-        <definition>uint32_t dmcam_param_roi_t::cur_fsize</definition>
+      <memberdef kind="variable" id="structdmcam__param__roi__t_1a4a77ed13cad724bd1166fe0a4483b9f1" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t dmcam_param_roi_t::binning</definition>
         <argsstring></argsstring>
-        <name>cur_fsize</name>
+        <name>binning</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>binning mode for some sensor </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="219" column="1" bodyfile="dmcam.h" bodystart="219" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="296" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="296" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__roi__t_1ae7bc374d9cd1e693d0fb3c501a7aab43" prot="public" static="no" mutable="no">
         <type>uint32_t</type>
@@ -77,20 +77,20 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>MAX frame size </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="220" column="1" bodyfile="dmcam.h" bodystart="220" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="297" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="297" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-<para>Frame size and Max frame size can be get from paramter interface using the PRAM_INFO_ROI parameter.</para><para><simplesect kind="note"><para>: For PARAM_INFO_ROI, it&apos;s format like follows. (srow,scol)_ _ _ _ _ _ _ _ _ | | | ROI | |_ _ _ _ _ _ _ _ _| (erow,ecol) frame size = (ecol - scol) * (erow - srow) * pixel_width; </para></simplesect>
+<para>Frame size and Max frame size can be get from paramter interface using the PRAM_INFO_ROI parameter.</para><para><simplesect kind="note"><para>: For PARAM_INFO_ROI, it&apos;s format like follows. (srow,scol)_ _ _ _ _ _ _ _ _ | | | ROI | |_ _ _ _ _ _ _ _ _| (erow,ecol) frame size = (ecol - scol) * (erow - srow) * pixel_width;frame roi value </para></simplesect>
 </para>    </detaileddescription>
-    <location file="dmcam.h" line="213" column="1" bodyfile="dmcam.h" bodystart="213" bodyend="221"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="291" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="291" bodyend="298"/>
     <listofallmembers>
-      <member refid="structdmcam__param__roi__t_1a8c44be5c15adbc69a6c0654fa24899c2" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>cur_fsize</name></member>
+      <member refid="structdmcam__param__roi__t_1a4a77ed13cad724bd1166fe0a4483b9f1" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>binning</name></member>
       <member refid="structdmcam__param__roi__t_1a8b2ff5df6e7a998e6f4c3167606b0693" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>ecol</name></member>
       <member refid="structdmcam__param__roi__t_1a25c4365134243d033de095e2932deb5c" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>erow</name></member>
       <member refid="structdmcam__param__roi__t_1ae7bc374d9cd1e693d0fb3c501a7aab43" prot="public" virt="non-virtual"><scope>dmcam_param_roi_t</scope><name>max_fsize</name></member>

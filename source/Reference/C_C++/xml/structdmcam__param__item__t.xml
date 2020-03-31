@@ -1,20 +1,21 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="structdmcam__param__item__t" kind="struct" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__param__item__t" kind="struct" prot="public">
     <compoundname>dmcam_param_item_t</compoundname>
+    <includes refid="dmcam_8h" local="no">dmcam.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structdmcam__param__item__t_1a868d9f8251d594fd065a6224e6b989aa" prot="public" static="no" mutable="no">
-        <type>dmcam_dev_param_e</type>
+        <type><ref refid="dmcam_8h_1a79aff7664786fca93ace67a7f53cfa25" kindref="member">dmcam_dev_param_e</ref></type>
         <definition>dmcam_dev_param_e dmcam_param_item_t::param_id</definition>
         <argsstring></argsstring>
         <name>param_id</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>param id </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="308" column="1" bodyfile="dmcam.h" bodystart="308" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="405" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="405" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__item__t_1a7395b6bfb29f304d7675f8f66d306528" prot="public" static="no" mutable="no">
         <type>uint8_t</type>
@@ -24,10 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>param length </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="309" column="1" bodyfile="dmcam.h" bodystart="309" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="406" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="406" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__param__item__t_1a3d2dc3b921e7691e84d4d5792663a80d" prot="public" static="no" mutable="no">
         <type><ref refid="uniondmcam__param__val__u" kindref="compound">dmcam_param_val_u</ref></type>
@@ -37,37 +38,44 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>param value </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="310" column="1" bodyfile="dmcam.h" bodystart="310" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="407" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="407" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para>param data struct </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="85">
+      <node id="95">
         <label>dmcam_param_val_u</label>
         <link refid="uniondmcam__param__val__u"/>
-        <childnode refid="86" relation="usage">
+        <childnode refid="96" relation="usage">
+          <edgelabel>info_capability</edgelabel>
+        </childnode>
+        <childnode refid="97" relation="usage">
           <edgelabel>roi</edgelabel>
         </childnode>
       </node>
-      <node id="86">
+      <node id="97">
         <label>dmcam_param_roi_t</label>
         <link refid="structdmcam__param__roi__t"/>
       </node>
-      <node id="84">
+      <node id="96">
+        <label>dmcam_cap</label>
+        <link refid="structdmcam__cap"/>
+      </node>
+      <node id="94">
         <label>dmcam_param_item_t</label>
         <link refid="structdmcam__param__item__t"/>
-        <childnode refid="85" relation="usage">
+        <childnode refid="95" relation="usage">
           <edgelabel>param_val</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="dmcam.h" line="307" column="1" bodyfile="dmcam.h" bodystart="307" bodyend="311"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="404" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="404" bodyend="408"/>
     <listofallmembers>
       <member refid="structdmcam__param__item__t_1a868d9f8251d594fd065a6224e6b989aa" prot="public" virt="non-virtual"><scope>dmcam_param_item_t</scope><name>param_id</name></member>
       <member refid="structdmcam__param__item__t_1a3d2dc3b921e7691e84d4d5792663a80d" prot="public" virt="non-virtual"><scope>dmcam_param_item_t</scope><name>param_val</name></member>

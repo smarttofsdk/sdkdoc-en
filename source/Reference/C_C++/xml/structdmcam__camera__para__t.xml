@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="structdmcam__camera__para__t" kind="struct" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__camera__para__t" kind="struct" prot="public">
     <compoundname>dmcam_camera_para_t</compoundname>
     <includes refid="dmcam_8h" local="no">dmcam.h</includes>
       <sectiondef kind="public-attrib">
@@ -12,10 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>center point x </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="121" column="1" bodyfile="dmcam.h" bodystart="121" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="153" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="153" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__camera__para__t_1a5b1fa4ade7ddbdd91f007ada0e65f74b" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -25,10 +25,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>center point y </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="122" column="1" bodyfile="dmcam.h" bodystart="122" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="154" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="154" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__camera__para__t_1a7455ab0094e7ba246e522f866133d9aa" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -38,10 +38,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>focal length x </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="123" column="1" bodyfile="dmcam.h" bodystart="123" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="155" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="155" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__camera__para__t_1a73404e46ebda15f3e949c725bf73eca8" prot="public" static="no" mutable="no">
         <type>float</type>
@@ -51,36 +51,36 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>focal length y </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="124" column="1" bodyfile="dmcam.h" bodystart="124" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="156" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="156" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structdmcam__camera__para__t_1a7cd3a9f4bb3cbc2119570b1430aac839" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structdmcam__camera__para__t_1a7aca480eed64bacd1157ec89c585abc0" prot="public" static="no" mutable="no">
         <type>float</type>
-        <definition>float dmcam_camera_para_t::scale</definition>
-        <argsstring></argsstring>
-        <name>scale</name>
+        <definition>float dmcam_camera_para_t::dcoeff[5]</definition>
+        <argsstring>[5]</argsstring>
+        <name>dcoeff</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>distortion coef </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="125" column="1" bodyfile="dmcam.h" bodystart="125" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="158" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="158" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
 <para>camera parameters </para>    </detaileddescription>
-    <location file="dmcam.h" line="120" column="1" bodyfile="dmcam.h" bodystart="120" bodyend="126"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="152" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="152" bodyend="159"/>
     <listofallmembers>
       <member refid="structdmcam__camera__para__t_1af80cf736d357505225b267ac49fc6e6e" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>cx</name></member>
       <member refid="structdmcam__camera__para__t_1a5b1fa4ade7ddbdd91f007ada0e65f74b" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>cy</name></member>
+      <member refid="structdmcam__camera__para__t_1a7aca480eed64bacd1157ec89c585abc0" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>dcoeff</name></member>
       <member refid="structdmcam__camera__para__t_1a7455ab0094e7ba246e522f866133d9aa" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>fx</name></member>
       <member refid="structdmcam__camera__para__t_1a73404e46ebda15f3e949c725bf73eca8" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>fy</name></member>
-      <member refid="structdmcam__camera__para__t_1a7cd3a9f4bb3cbc2119570b1430aac839" prot="public" virt="non-virtual"><scope>dmcam_camera_para_t</scope><name>scale</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

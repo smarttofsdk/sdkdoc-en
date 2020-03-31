@@ -1,7 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
-<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
-  <compounddef id="structdmcam__frame__t" kind="struct" language="C++" prot="public">
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="structdmcam__frame__t" kind="struct" prot="public">
     <compoundname>dmcam_frame_t</compoundname>
+    <includes refid="dmcam_8h" local="no">dmcam.h</includes>
       <sectiondef kind="public-attrib">
       <memberdef kind="variable" id="structdmcam__frame__t_1ac0d1f4e4896e6fe15ba66be93d05f3b7" prot="public" static="no" mutable="no">
         <type><ref refid="structdmcam__frame__info__t" kindref="compound">dmcam_frame_info_t</ref></type>
@@ -11,10 +12,10 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>frame informatin </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="340" column="1" bodyfile="dmcam.h" bodystart="340" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="439" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="439" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structdmcam__frame__t_1a387afc351776603e37621af1102a4f56" prot="public" static="no" mutable="no">
         <type>void *</type>
@@ -24,30 +25,30 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-        </detaileddescription>
+<para>frame data pointer </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="dmcam.h" line="341" column="1" bodyfile="dmcam.h" bodystart="341" bodyend="-1"/>
+        <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="440" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="440" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
-    </detaileddescription>
+<para>frame data struct </para>    </detaileddescription>
     <collaborationgraph>
-      <node id="82">
+      <node id="92">
         <label>dmcam_frame_info_t</label>
         <link refid="structdmcam__frame__info__t"/>
       </node>
-      <node id="81">
+      <node id="91">
         <label>dmcam_frame_t</label>
         <link refid="structdmcam__frame__t"/>
-        <childnode refid="82" relation="usage">
+        <childnode refid="92" relation="usage">
           <edgelabel>frame_info</edgelabel>
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="dmcam.h" line="339" column="1" bodyfile="dmcam.h" bodystart="339" bodyend="342"/>
+    <location file="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" line="438" column="1" bodyfile="/mnt/hgfs/sdk/doc/doc-en/source/Reference/C_C++/dmcam.h" bodystart="438" bodyend="441"/>
     <listofallmembers>
       <member refid="structdmcam__frame__t_1a387afc351776603e37621af1102a4f56" prot="public" virt="non-virtual"><scope>dmcam_frame_t</scope><name>frame_data</name></member>
       <member refid="structdmcam__frame__t_1ac0d1f4e4896e6fe15ba66be93d05f3b7" prot="public" virt="non-virtual"><scope>dmcam_frame_t</scope><name>frame_info</name></member>

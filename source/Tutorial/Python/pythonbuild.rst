@@ -29,8 +29,7 @@ Install the packages needed to run the python samples
 
 	 pip install -r requirement.txt
 
-	.. note ::
-	
+.. note::
 	Installing PyQt5 in python2.7 or python3.4 environment may cause failure. You can install PyQt4 instead. 
 
 After the Python related packages are installed, you can run the specified samples

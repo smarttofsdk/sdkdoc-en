@@ -11,7 +11,7 @@ Welcome to the SDK document of the SmartToF module. Through this document, you c
 SmartToF series module introduction
 +++++++++++++++++++++++++++++++++++
 
-SmartToF TC(QQVGA) and TS(QVGA) series modules are developed by Data Miracle which using industry-leading sensor chip, with high measurement accuracy,
+SmartToF TC(QVGA) and TS(VGA) series modules are developed by Data Miracle which using industry-leading sensor chip, with high measurement accuracy,
 Strong anti-interference ability, compact appearance and other advantages. The module can be used in emerging technologies such as accurate people flow statistics, 
 logistics storage, gesture recognition, robot obstacle avoidance, and vehicle control.
 
